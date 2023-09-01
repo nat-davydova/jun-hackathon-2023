@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="218.283"
+   height="210.75"
+   viewBox="60.233 575.383 218.283 210.75"
+   version="1.1"
+   id="svg32"
+   sodipodi:docname="badge.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs36" />
+  <sodipodi:namedview
+     id="namedview34"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.9572954"
+     inkscape:cx="109.16547"
+     inkscape:cy="105.375"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g30" />
+  <g
+     data-name="badge"
+     transform="translate(18 12)"
+     id="g30">
+    <path
+       d="m 241.9956,607.64079 c 16.456,23.864 26.48,71.219 8.268,104.098 -18.213,32.879 -25.225,47.046 -71.626,58.032 -35.479,8.4 -76.156,9.315 -101.962003,-15.139 -24.38,-23.104 -38.799,-46.364 -34.006,-99.216 4.795,-52.85 34.257,-76.573 79.394003,-85.738 45.14,-9.165 49.754,-4.924 70.056,1.605 23.7,7.623 33.42,12.492 49.876,36.358 z"
+       fill="#2a2373"
+       fill-rule="evenodd"
+       data-name="Path 34"
+       id="path2" />
+    <g
+       data-name="blim2"
+       id="g16">
+      <path
+         d="M219.1 672.24a1.574 1.574 0 0 0 1.791 1.327l14.772-2.19a1.574 1.574 0 0 0 1.328-1.793 1.574 1.574 0 0 0-1.792-1.327l-14.772 2.191a1.574 1.574 0 0 0-1.328 1.792Z"
+         fill="#fd5c37"
+         fill-rule="evenodd"
+         data-name="Path 35"
+         id="path8" />
+      <path
+         d="M218.507 686.934c-.18.85.36 1.689 1.211 1.87l14.592 3.131a1.575 1.575 0 0 0 .657-3.08l-14.591-3.132c-.838-.181-1.676.36-1.87 1.211Z"
+         fill="#fd5c37"
+         fill-rule="evenodd"
+         data-name="Path 36"
+         id="path10" />
+      <path
+         d="M216.328 704.722c.078.4.31.76.67 1.006l7.902 3.88a1.575 1.575 0 0 0 2.178-.439 1.575 1.575 0 0 0-.438-2.178l-7.901-3.88a1.575 1.575 0 0 0-2.179.438c-.232.361-.31.786-.232 1.173Z"
+         fill="#fd5c37"
+         fill-rule="evenodd"
+         data-name="Path 37"
+         id="path12" />
+      <path
+         d="M217.102 657.597c.077-.4.309-.76.67-1.006l7.901-3.88a1.575 1.575 0 0 1 2.179.439 1.574 1.574 0 0 1-.439 2.178l-7.901 3.88a1.575 1.575 0 0 1-2.178-.438 1.602 1.602 0 0 1-.232-1.173Z"
+         fill="#fd5c37"
+         fill-rule="evenodd"
+         data-name="Path 38"
+         id="path14" />
+    </g>
+    <g
+       data-name="blim2"
+       id="g26">
+      <path
+         d="M83.31 690.08a1.574 1.574 0 0 0-1.791-1.328l-14.772 2.19a1.574 1.574 0 0 0-1.328 1.793 1.574 1.574 0 0 0 1.792 1.327l14.772-2.191a1.574 1.574 0 0 0 1.327-1.792Z"
+         fill="#fd5c37"
+         fill-rule="evenodd"
+         data-name="Path 35"
+         id="path18" />
+      <path
+         d="M83.903 675.385c.18-.85-.36-1.689-1.211-1.87L68.1 670.385a1.575 1.575 0 0 0-.657 3.08l14.591 3.132c.838.181 1.676-.36 1.87-1.211Z"
+         fill="#fd5c37"
+         fill-rule="evenodd"
+         data-name="Path 36"
+         id="path20" />
+      <path
+         d="M86.082 657.597c-.078-.4-.31-.76-.67-1.006l-7.902-3.88a1.575 1.575 0 0 0-2.178.439 1.575 1.575 0 0 0 .438 2.178l7.901 3.88a1.575 1.575 0 0 0 2.179-.438c.232-.361.31-.786.232-1.173Z"
+         fill="#fd5c37"
+         fill-rule="evenodd"
+         data-name="Path 37"
+         id="path22" />
+      <path
+         d="M85.308 704.722c-.077.4-.309.76-.67 1.006l-7.901 3.88a1.575 1.575 0 0 1-2.179-.439 1.574 1.574 0 0 1 .439-2.178l7.901-3.88a1.575 1.575 0 0 1 2.178.438c.232.361.31.786.232 1.173Z"
+         fill="#fd5c37"
+         fill-rule="evenodd"
+         data-name="Path 38"
+         id="path24" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:53.3333px;fill:#ffffff"
+       x="119.75314"
+       y="686.12488"
+       id="text250"><tspan
+         sodipodi:role="line"
+         id="tspan248"
+         x="119.75314"
+         y="686.12488"
+         style="font-size:53.3333px">42</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.6667px;fill:#ffffff"
+       x="105.26533"
+       y="707.37994"
+       id="text351"><tspan
+         sodipodi:role="line"
+         id="tspan349"
+         x="105.26533"
+         y="707.37994">lorem ipsum</tspan></text>
+  </g>
+</svg>
