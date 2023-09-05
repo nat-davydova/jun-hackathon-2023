@@ -4,4 +4,5 @@ pnpm dev
 ```
 
 # TODO
- - [ ] all the things
+ - [ ] add pug mixins for repeating elements
+ - [ ] tune tailwind theme
