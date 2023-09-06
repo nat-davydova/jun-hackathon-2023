@@ -4,10 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        "hbeige": "#FFF6E9",
+        "hbeige-1": "#FFF6E9",
+        "hbeige-2": "#FFF6E9",
         "hgreen": "#31C9A8",
         "horange": "#FECBBA",
-        "hyellow": "#FCC953"
+        "hyellow": "#FCC953",
+        "hblue": "#341C77"
       }
     },
   },

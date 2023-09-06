@@ -1,0 +1,6 @@
+mixin card(title, text, imageSrc)
+ div(class='flex flex-col')
+  div(class='bg-white border border-white rounded-full w-[217px] h-[217px] flex justify-center align-center')
+   img(class='relative top-5' src=imageSrc)
+  h2 #{title}
+  div #{text}

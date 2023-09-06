@@ -1,0 +1,9 @@
+mixin card(day, month, time, title, text)
+ div(class='flex')
+  div(class='bg-hbeige-2 border border-white rounded-md flex flex-col justify-center align-center w-fit') 
+   div(class='bg-hblue border border-hblue rounded-full w-[90px] h-[90px] flex flex-col text-center justify-center align-center text-white') 
+    span(class='text-4xl') #{day}
+    span #{month}
+   h2(class="text-center") #{title}
+   div #{time}
+   div #{text}
