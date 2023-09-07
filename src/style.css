@@ -2,10 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-.pixel-perfect-image {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0.5;
+@font-face {
+  font-family: 'dk-smiling-cat';
+  src: url('/fonts/DK_Smiling_Cat.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'linotte';
+  src: url('/fonts/oLinotte-SemiBold_400.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'woodford';
+  src: url('/fonts/WoodfordBournePRO-Regular.woff') format('woff');
+}
+
+h1 {
+  font-family: dk-smiling-cat;
+}
+
+
+h2, h3 {
+  font-family: linotte;
+}
+
+div, p, span {
+  font-family: woodford;
 }
