@@ -11,7 +11,10 @@ export default {
         "horange-2": "#FECBBA",
         "horange-hover": "#FF9C37",
         "hyellow": "#FCC953",
-        "hblue": "#341C77"
+        "hblue": "#341C77",
+        "hgrey-1": "#474446",
+        "hgrey-2": "#312F30",
+        "hcyan": "#B2EAEE"
       }
     },
   },

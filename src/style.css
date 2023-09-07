@@ -26,6 +26,7 @@ h2, h3 {
   font-family: linotte;
 }
 
-div, p, span {
+div, p, span, button {
   font-family: woodford;
+  font-size: 20px;
 }
