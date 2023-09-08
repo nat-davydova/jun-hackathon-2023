@@ -14,6 +14,7 @@ export default {
         "hblue": "#341C77",
         "hgrey-1": "#474446",
         "hgrey-2": "#312F30",
+        "hgrey-3": "#E1DFE8",
         "hcyan": "#B2EAEE"
       }
     },
