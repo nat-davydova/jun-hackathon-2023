@@ -1,6 +1,6 @@
 mixin card(title, text, imageSrc)
- div(class='flex flex-col text-center justify-center')
+ div(class='flex flex-col text-center justify-center w-fit')
   div(class='bg-white border border-white rounded-full w-[217px] h-[217px] flex justify-center align-center')
    img(class='relative top-5 mx-auto' src=imageSrc)
-  h2(class='text-[32px] mt-5 text-[#312F30]') #{title}
+  h2(class='text-[32px] mt-5 text-[#312F30] w-[217px]') #{title}
   div(class='text-[#474446] w-[217px]') #{text}
