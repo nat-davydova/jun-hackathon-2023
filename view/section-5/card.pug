@@ -1,10 +1,10 @@
 mixin card(day, month, time, title, text)
  li(class='flex')
-  div(class='bg-hbeige-2 border border-white rounded-md flex justify-center align-center w-[600px] h-[150px] border border-hbeige-2 p-5 rounded-lg') 
+  div(class='bg-hbeige-2 rounded-md flex justify-center align-center  border border-hbeige-2 p-5 rounded-lg') 
    div(class='mr-auto my-auto bg-hblue border border-hblue text-center rounded-full w-[90px] h-[90px] flex flex-col justify-center align-center text-white p-5') 
     span(class='text-[38px] -mb-5') #{day}
     span(class='text-[20px] -ml-2') #{month}
-   div(class='flex flex-col my-auto mr-[200px] ml-[50px]')
+   div(class='flex flex-col my-auto lg:mr-[200px] ml-[50px]')
     h2(class="text-[26px]") #{title}
     div(class='text-[#8C8989] w-fit')
      span(class='mr-5') #{time}

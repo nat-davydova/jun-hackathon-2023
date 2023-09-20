@@ -42,13 +42,13 @@
         </div>
       </div>
 
-      <div class="two flex h-fit p-16 text-center lg:h-[678px]">
+      <div class="two flex h-fit pt-5 text-center lg:h-[678px] lg:p-16">
         <div class="flex flex-col gap-20">
           <img src="/comet.svg" width="130" height="157" />
           <img src="/star2.svg" width="34" height="40" />
         </div>
-        <div class="m-auto flex flex-col gap-20 px-16 lg:flex-row">
-          <div class="my-auto flex w-[500px] flex-col">
+        <div class="m-auto flex flex-col gap-20 lg:flex-row lg:px-16">
+          <div class="my-auto flex flex-col lg:w-[500px]">
             <h2 class="text-5xl text-hgrey-2">Lorem ipsum</h2>
             <p class="mt-10 w-fit text-justify text-xl text-hgrey-1">
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -65,7 +65,7 @@
             <img src="/star2.svg" width="34" height="40" />
           </div>
           <div
-            class="image h-[607px] w-[495px] flex-none rounded-xl border bg-slate-700"
+            class="image h-[607px] flex-none rounded-xl border bg-slate-700 lg:w-[495px]"
           ></div>
         </div>
         <div class="m-10 mt-[100px] mt-[200px] flex flex-col gap-10">
@@ -75,10 +75,10 @@
       </div>
 
       <div
-        class="three align-center flex h-fit flex-col gap-8 bg-hcyan p-16 lg:h-[678px]"
+        class="three align-center flex h-fit flex-col gap-8 bg-hcyan lg:h-[678px] lg:p-16"
       >
         <h2 class="mx-auto text-[55px] text-hblue">Lorem Ipsum!</h2>
-        <div class="px-[250px]">
+        <div class="lg:px-[250px]">
           <template
             data-type="pug"
             data-src="./view/section-3/index.pug"
@@ -87,10 +87,10 @@
       </div>
 
       <div
-        class="four flex h-fit flex-col items-center justify-center bg-hbeige-1 p-16 text-[55px]"
+        class="four flex h-fit flex-col items-center justify-center bg-hbeige-1 text-[55px] lg:p-16"
       >
         <h2 class="text-hgrey-2">The largest indoor activity center</h2>
-        <p class="text-hgrey-hgrey-1 w-[600px] text-center text-[20px]">
+        <p class="text-hgrey-hgrey-1 text-center text-[20px] lg:w-[600px]">
           Phasellus non tellus molestie, semper lacus quis, pulvinar lorem.
           Maecenas sagittis nunc in magna elementum, a auctor augue congue.
         </p>
@@ -100,9 +100,9 @@
         ></template>
       </div>
 
-      <div class="five flex h-fit px-16">
-        <img src="/rocket.svg" width="182" height="171" />
-        <div class="ml-10 flex w-screen flex-col justify-center">
+      <div class="five flex h-fit lg:px-16">
+        <div class="w-fit"><img src="/rocket.svg" /></div>
+        <div class="flex w-screen flex-col justify-center">
           <h2 class="text-[68px] text-horange-1">Upcoming Events</h2>
           <div class="mb-5 text-hgrey-1 lg:max-w-[600px]">
             groff (GNU roff) is a typesetting system that reads plain text input
@@ -114,17 +114,18 @@
               data-type="pug"
               data-src="./view/section-5/index.pug"
             ></template>
-            <div
-              class="image mb-10 h-[607px] w-[495px] flex-none rounded-xl border bg-slate-700"
-            ></div>
           </div>
         </div>
+        <div
+          class="image h-[607px] flex-none rounded-xl border bg-slate-700 lg:w-[495px]"
+        ></div>
       </div>
+
       <div
         class="six flex h-fit w-screen flex-col items-center justify-center bg-hblue p-16 lg:h-[678px]"
       >
-        <div class="flex gap-5">
-          <h2 class="flex-none text-[68px] text-white">Lorem & Ipsum</h2>
+        <div class="flex flex-col gap-5 lg:flex-row">
+          <h2 class="text-[68px] text-white lg:flex-none">Lorem & Ipsum</h2>
           <div class="text-justify text-hgrey-3">
             GNU parallel is a shell tool for executing jobs in parallel using
             one or more computers. A job can be a single command or a small
@@ -139,6 +140,31 @@
         </div>
       </div>
     </main>
-    <footer class="h-[612px] bg-hbeige-1"></footer>
+    <footer class="h-[612px] bg-hbeige-1 p-16 flex">
+      <div class="flex flex-col">
+        <div class="flex px-16 py-7">
+          <img src="/logo.svg" />
+          <h1 class="ml-2 w-10 text-5xl text-hblue">Jun Hackaton</h1>
+        </div>
+        <div>
+          Our dozens of attractions and different play areas encourage
+          exploration and discovery helping your child learn.
+        </div>
+      </div>
+      <div>
+        <h2>Quick links</h2>
+        <ul>Who We Are<ul>
+        <ul>Our Offers<ul>
+        <ul>Birthday Parties<ul>
+        <ul>Gallery<ul>
+      </div>
+      <div>
+        <h2>Quick links</h2>
+        <ul>Who We Are<ul>
+        <ul>Our Offers<ul>
+        <ul>Birthday Parties<ul>
+        <ul>Gallery<ul>
+      </div>
+    </footer>
   </body>
 </html>

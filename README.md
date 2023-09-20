@@ -5,9 +5,6 @@ pnpm dev
 
 # TODO
 
- - [ ] make page align with the design
- - [ ] 1. rework sections 3 and 4 using pug
- - [ ] write down common colors and font sizes and add them to theme
- - [ ] add proper fonts
- - [ ] add pug mixins for repeating elements
- - [ ] tune tailwind theme
+ - [ ] fix centering for very small screens
+ - [ ] write script for selecting events by date
+ - [ ] fix section 5 
