@@ -74,7 +74,7 @@
         </div>
       </div>
 
-      <div class="three flex h-fit bg-hcyan">
+      <div class="three flex h-fit bg-hcyan p-5">
         <div class="px-auto my-auto lg:px-10">
           <div class="stars flex-none">
             <img class="ml-6" src="/star2.svg" width="34" height="40" />
@@ -98,41 +98,51 @@
         </div>
       </div>
 
-      <div
-        class="four h-fit bg-hbeige-1"
-      >
-      <div class="flex flex-col items-center justify-center">
-        <h2 class="text-hgrey-2 text-[55px]">The largest indoor activity center</h2>
-        <p class="text-hgrey-hgrey-1 text-center text-[20px] lg:w-[600px]">
-          Phasellus non tellus molestie, semper lacus quis, pulvinar lorem.
-          Maecenas sagittis nunc in magna elementum, a auctor augue congue.
-        </p>
-        <template
-          data-type="pug"
-          data-src="./view/section-4/index.pug"
-        ></template>
-      </div>
+      <div class="four h-fit bg-hbeige-1">
+        <div class="flex flex-col items-center justify-center p-5">
+          <h2 class="text-[55px] text-hgrey-2">
+            The largest indoor activity center
+          </h2>
+          <p class="text-hgrey-hgrey-1 text-center text-[20px] lg:w-[600px]">
+            Phasellus non tellus molestie, semper lacus quis, pulvinar lorem.
+            Maecenas sagittis nunc in magna elementum, a auctor augue congue.
+          </p>
+          <template
+            data-type="pug"
+            data-src="./view/section-4/index.pug"
+          ></template>
+        </div>
       </div>
 
-      <div class="five flex h-fit lg:px-16">
-        <div class="w-fit"><img src="/rocket.svg" /></div>
-        <div class="flex w-screen flex-col justify-center">
-          <h2 class="text-[68px] text-horange-1">Upcoming Events</h2>
-          <div class="mb-5 text-hgrey-1 lg:max-w-[600px]">
-            groff (GNU roff) is a typesetting system that reads plain text input
-            files that include formatting commands to produce output in
-            PostScript, PDF, HTML, or DVI formats or for display to a terminal.
-          </div>
-          <div class="flex flex-col items-center gap-20 lg:flex-row">
+      <div class="five flex h-fit p-10">
+        <div class="decorations p-5">
+          <div class="w-fit"><img src="/rocket.svg" /></div>
+          <img class="my-[100px]" src="/star2.svg" width="34" height="40" />
+        </div>
+        <div
+          class="content mx-auto flex flex-col items-center justify-center gap-5 lg:flex-row"
+        >
+          <div class="flex flex-col">
+            <h2 class="text-[68px] text-horange-1">Upcoming Events</h2>
+            <div class="mb-5 text-hgrey-1 lg:max-w-[600px]">
+              groff (GNU roff) is a typesetting system that reads plain text
+              input files that include formatting commands to produce output in
+              PostScript, PDF, HTML, or DVI formats or for display to a
+              terminal.
+            </div>
             <template
               data-type="pug"
               data-src="./view/section-5/index.pug"
             ></template>
           </div>
+          <div
+            class="image h-[607px] w-[200px] flex-none rounded-xl border bg-slate-700"
+          ></div>
         </div>
-        <div
-          class="image h-[607px] flex-none rounded-xl border bg-slate-700 lg:w-[495px]"
-        ></div>
+        <div class="decorations pl-5">
+          <img class="" src="/star2.svg" width="34" height="40" />
+          <img class="my-[100px]" src="/star2.svg" width="34" height="40" />
+        </div>
       </div>
 
       <div
