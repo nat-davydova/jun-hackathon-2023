@@ -1,5 +1,8 @@
+include ./label.pug
+
 mixin card(title, category)
- div(class='w-[285px] h-[285px] bg-white border border-white rounded py-10')
+ div(class='w-[285px] bg-white border border-white rounded py-10')
   div(class='bg-gray-100 w-full h-[200px]')
   div(class='text-center mt-2') #{title}
+  +label('hblue', 'title')
   
