@@ -17,7 +17,7 @@
   src: url("/fonts/WoodfordBournePRO-Regular.woff") format("woff");
 }
 
-h1 {
+.logo__text {
   font-family: dk-smiling-cat;
 }
 
