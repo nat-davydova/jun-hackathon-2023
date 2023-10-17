@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html>hora
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,27 +11,31 @@
     <header>
       <nav class="logo flex px-16 py-7">
         <img src="/logo.svg" />
-        <span class="logo__text ml-2 w-10 text-5xl text-hblue">Jun Hackaton</span>
+        <span class="logo__text ml-2 w-10 text-5xl text-hblue"
+          >Jun Hackaton</span
+        >
       </nav>
     </header>
 
     <main>
-      <div class="hero h-fit bg-slate-700 pt-[110px] pb-[80px]">
+      <div class="hero h-fit bg-slate-700 pb-[80px] pt-[110px]">
         <div
           class="align-center flex h-full flex-col justify-center gap-10 px-2 text-center lg:px-16"
         >
-            <p class="text-[18px] text-horange-1 mb-[-50px]">LOREM IPSUM</p>
-            <h1 class="text-[82px] text-white">Dolor sit amet</h1>
-            <p class="text-[26px] text-white">
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br />
-              nisi ut
-            </p>
-            <button
-              class="mx-auto h-[74px] w-[229px] rounded-full border border-horange-1 bg-horange-1 text-white hover:border-horange-hover hover:bg-horange-hover transition duration-300"
-            >
-              Lorem Ipsum!
-            </button>
+          <p class="mb-[-50px] text-[18px] text-horange-1">LOREM IPSUM</p>
+          <h1 class="text-[82px] text-white">Dolor sit amet</h1>
+          <p class="text-[26px] text-white">
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <br />
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            <br />
+            nisi ut
+          </p>
+          <button
+            class="mx-auto h-[74px] w-[229px] rounded-full border border-horange-1 bg-horange-1 text-white transition duration-300 hover:border-horange-hover hover:bg-horange-hover"
+          >
+            Lorem Ipsum!
+          </button>
         </div>
       </div>
 
@@ -41,7 +45,7 @@
           <img src="/star2.svg" width="34" height="40" />
         </div>
         <div class="m-auto flex flex-col gap-32 lg:flex-row lg:px-16">
-          <div class="my-auto gap-12 flex flex-col lg:w-[500px]">
+          <div class="my-auto flex flex-col gap-12 lg:w-[500px]">
             <h2 class="text-5xl text-hgrey-2">Lorem ipsum</h2>
             <p class="w-fit text-justify text-xl text-hgrey-1">
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -51,7 +55,7 @@
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <button
-              class="mx-auto h-[74px] w-[229px] rounded-full border border-horange-1 bg-horange-1 text-white hover:border-horange-1 hover:bg-horange-hover transition duration-300"
+              class="mx-auto h-[74px] w-[229px] rounded-full border border-horange-1 bg-horange-1 text-white transition duration-300 hover:border-horange-1 hover:bg-horange-hover"
             >
               Lorem Ipsum!
             </button>
@@ -75,7 +79,9 @@
             <img class="ml-10" src="/star2.svg" width="34" height="40" />
           </div>
         </div>
-        <div class="content w-[100%] flex gap-20 flex-col items-center justify-center">
+        <div
+          class="content flex w-[100%] flex-col items-center justify-center gap-20"
+        >
           <h2 class="text-[55px] text-hblue">Explore, excite & inspire!</h2>
           <template data-type="pug" data-src="./view/section-3/index.pug">
           </template>
@@ -83,7 +89,12 @@
         <div class="px-auto my-auto lg:px-10">
           <div class="stars flex-none">
             <img class="mr-6" src="/star2.svg" width="34" height="40" />
-            <img class="ml-6 my-[100px]" src="/star2.svg" width="34" height="40" />
+            <img
+              class="my-[100px] ml-6"
+              src="/star2.svg"
+              width="34"
+              height="40"
+            />
             <img class="mr-10" src="/star2.svg" width="34" height="40" />
           </div>
         </div>
@@ -137,9 +148,9 @@
       </div>
 
       <div
-        class="sponsors flex h-fit flex-col items-center justify-center bg-hblue p-16 gap-16"
+        class="sponsors flex h-fit flex-col items-center justify-center gap-16 bg-hblue p-16"
       >
-        <div class="flex flex-col justify-center text-center gap-5">
+        <div class="flex flex-col justify-center gap-5 text-center">
           <h2 class="text-[68px] text-white lg:flex-none">Lorem & Ipsum</h2>
           <div class="text-hgrey-3 lg:w-[600px]">
             GNU parallel is a shell tool for executing jobs in parallel using
@@ -152,6 +163,46 @@
             data-type="pug"
             data-src="./view/section-6/index.pug"
           ></template>
+        </div>
+      </div>
+
+      <div class="faq flex items-center bg-hyellow">
+        <div class="stars my-auto px-10">
+          <div
+            class="h-[100px] w-[100px] bg-[url('/star4.svg')] bg-no-repeat"
+          ></div>
+          <div
+            class="ml-3 h-[100px] w-[100px] bg-[url('/star4.svg')] bg-no-repeat"
+          ></div>
+        </div>
+        <div class="flex flex-col items-center justify-center p-16">
+          <h2 class="text-[55px] text-hgrey-2">Lorem Ipsum</h2>
+          <div class="text-justify lg:px-[200px]">
+            <p class="text-hgrey-1">
+              Netcat is a featured networking utility which reads and writes
+              data across network connections, using the TCP/IP protocol. It is
+              designed to be a reliable "back-end" tool that can be used
+              directly or easily driven by other programs and scripts
+            </p>
+          </div>
+          <ul
+            class="grid list-image-[url(/tick.svg)] grid-cols-2 gap-x-20 text-hgrey-1"
+          >
+            <li class="border-b-2 border-[#FFD383]">thing 1</li>
+            <li class="border-b-2 border-[#FFD383]">cool thing</li>
+            <li class="border-b-2 border-[#FFD383]">another thing</li>
+            <li class="border-b-2 border-[#FFD383]">thing</li>
+            <li class="border-b-2 border-[#FFD383]">wow thing 2</li>
+            <li class="border-b-2 border-[#FFD383]">thing #3</li>
+          </ul>
+        </div>
+        <div class="stars my-auto px-10">
+          <div
+            class="h-[200px] w-[200px] bg-[url('/moon.svg')] bg-no-repeat"
+          ></div>
+          <div
+            class="ml-3 h-[200px] w-[200px] bg-[url('/star4.svg')] bg-no-repeat"
+          ></div>
         </div>
       </div>
     </main>
