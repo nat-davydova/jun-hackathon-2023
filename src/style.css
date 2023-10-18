@@ -35,3 +35,23 @@ button {
   font-family: woodford;
   font-size: 20px;
 }
+
+.faq {
+    background-image:
+            url('/star4.svg'),
+            url('/star4.svg'),
+            url('/star4.svg'),
+            url('/moon.svg');
+    background-size:
+            50px 50px,
+            50px 50px,
+            50px 50px,
+            200px 200px;
+    background-position:
+            5% 5%,
+            7% 95%,
+            85% 80%,
+            96% 20%;
+    background-repeat: no-repeat;
+    background-color: #fcc952;
+}
