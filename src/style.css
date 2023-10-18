@@ -55,3 +55,19 @@ button {
     background-repeat: no-repeat;
     background-color: #fcc952;
 }
+
+.faq__question {
+    position: relative;
+    display: flex;
+}
+
+.faq__question:before {
+    --bullet-dimensions: 50px;
+
+    display: inline-flex;
+    width: var(--bullet-dimensions);
+    height: var(--bullet-dimensions);
+    flex-shrink: 0;
+    content: '';
+    background: url('/tick.svg') no-repeat;
+}
