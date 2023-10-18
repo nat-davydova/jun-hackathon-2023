@@ -46,7 +46,7 @@
         </div>
         <div class="m-auto flex flex-col gap-32 lg:flex-row lg:px-16">
           <div class="my-auto flex flex-col gap-12 lg:w-[500px]">
-            <h2 class="text-5xl text-hgrey-2">Lorem ipsum</h2>
+            <h2 class="text-5xl text-hgrey-2">About Us</h2>
             <p class="w-fit text-justify text-xl text-hgrey-1">
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -83,7 +83,7 @@
         <div
           class="content flex w-[100%] flex-col items-center justify-center gap-20"
         >
-          <h2 class="text-[55px] text-hblue">Explore, excite & inspire!</h2>
+          <h2 class="text-[55px] text-hblue">Who we need</h2>
           <template data-type="pug" data-src="./view/section-3/index.pug">
           </template>
         </div>
@@ -99,7 +99,7 @@
       <section class="team h-fit bg-hbeige-1 py-24">
         <div class="flex flex-col items-center justify-center">
           <h2 class="text-[55px] text-hgrey-2">
-            The largest indoor activity center
+            Team
           </h2>
           <p class="text-hgrey-hgrey-1 text-center text-[20px] lg:w-[600px]">
             Phasellus non tellus molestie, semper lacus quis, pulvinar lorem.
@@ -122,7 +122,7 @@
           class="content mx-auto flex flex-col items-stretch justify-center gap-16 lg:flex-row"
         >
           <div class="flex flex-col gap-10">
-            <h2 class="text-[68px] text-horange-1">Upcoming Events</h2>
+            <h2 class="text-[68px] text-horange-1">Timeline</h2>
             <div class="mb-5 text-hgrey-1 lg:max-w-[600px]">
               groff (GNU roff) is a typesetting system that reads plain text
               input files that include formatting commands to produce output in
@@ -148,7 +148,7 @@
         class="sponsors flex h-fit flex-col items-center justify-center gap-16 bg-hblue p-16"
       >
         <div class="flex flex-col justify-center gap-5 text-center">
-          <h2 class="text-[68px] text-white lg:flex-none">Lorem & Ipsum</h2>
+          <h2 class="text-[68px] text-white lg:flex-none">Sponsors</h2>
           <div class="text-hgrey-3 lg:w-[600px]">
             GNU parallel is a shell tool for executing jobs in parallel using
             one or more computers. A job can be a single command or a small
@@ -165,7 +165,7 @@
 
       <div class="faq flex items-center p-20">
         <div class="flex flex-col items-center justify-center gap-4 m-auto">
-          <h2 class="text-[55px] text-hgrey-2">Lorem Ipsum</h2>
+          <h2 class="text-[55px] text-hgrey-2">FAQ</h2>
           <div class="text-justify lg:px-[200px]">
             <p class="text-hgrey-1 text-center lg:w-[600px]">
               Netcat is a featured networking utility which reads and writes
@@ -204,7 +204,7 @@
           class="ml-auto flex w-full flex-col justify-center gap-x-36 lg:flex-row lg:px-20"
         >
           <ul class="list-disc">
-            <span class="text-[32px] text-hgrey-2">Quick links</span>
+            <h5 class="text-[32px] text-hgrey-2">Quick links</h5>
             <li class="text-horange-1">
               <span class="text-hgrey-1">link 1</span>
             </li>
@@ -218,36 +218,18 @@
               <span class="text-hgrey-1">link 4</span>
             </li>
           </ul>
-          <ul class="list-disc">
-            <span class="text-[32px] text-hgrey-2">Information</span>
-            <li class="text-horange-1">
-              <span class="text-hgrey-1">link 1</span>
-            </li>
-            <li class="text-horange-1">
-              <span class="text-hgrey-1">link 2</span>
-            </li>
-            <li class="text-horange-1">
-              <span class="text-hgrey-1">link 3</span>
-            </li>
-            <li class="text-horange-1">
-              <span class="text-hgrey-1">link 4</span>
-            </li>
-          </ul>
-          <ul class="">
-            <span class="text-[32px] text-hgrey-2">Contacts</span>
-            <span class="flex gap-2">
-              <img width="25" height="24" src="/phone.svg" />
-              <li>phone</li>
-            </span>
-            <span class="flex gap-2">
-              <img src="/mail.svg" width="25" height="24" />
-              <li>email</li>
-            </span>
-            <span class="flex gap-2">
-              <img src="adress.svg" width="25" height="24" />
-              <li>adress</li>
-            </span>
-          </ul>
+          <div>
+            <h5 class="text-[32px] text-hgrey-2">Contacts</h5>
+            <ul class="">
+              <li >
+                <a class="flex gap-2" href="#">
+                  <img width="25" height="24" src="/phone.svg" />
+                  <span>phone</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </footer>
