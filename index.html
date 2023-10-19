@@ -10,20 +10,31 @@
   <body>
     <header>
       <nav class="logo flex px-16 py-7">
+        <div class="flex">
         <img src="/logo.svg" />
         <span class="logo__text ml-2 w-10 text-5xl text-hblue"
           >Jun Hackaton</span
         >
+        </div>
+        <div class="m-auto text-hgrey-1 font-semibold flex gap-5 flex-wrap">
+          <a class="hover:text-hblue" href="#about">About</a>
+          <a class="hover:text-hblue" href="#we-need">We Need</a>
+          <a class="hover:text-hblue" href="#team">Team</a>
+          <a class="hover:text-hblue" href="#timeline">Timeline</a>
+          <a class="hover:text-hblue" href="#sponsors">Sponsors</a>
+          <a class="hover:text-hblue" href="#faq">F.A.Q</a>
+          <a class="hover:text-hblue" href="#contacts">Contacts</a>
+        </div>
       </nav>
     </header>
 
     <main>
-      <div class="hero h-fit bg-slate-700 pb-[80px] pt-[110px]">
+      <section class="hero h-fit bg-slate-700 pb-[80px] pt-[110px]">
         <div
           class="align-center flex h-full flex-col justify-center gap-10 px-2 text-center lg:px-16"
         >
           <p class="mb-[-50px] text-[18px] text-horange-1">LOREM IPSUM</p>
-          <h1 class="text-[62px] lg:text-[82px] text-white">Dolor sit amet</h1>
+          <h1 class="text-[62px] text-white lg:text-[82px]">Dolor sit amet</h1>
           <p class="text-[26px] text-white">
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             <br />
@@ -37,14 +48,16 @@
             Lorem Ipsum!
           </button>
         </div>
-      </div>
+      </section>
 
-      <section class="about flex h-fit text-center py-28 xl:px-16">
-<!--        <div class="flex flex-col gap-20">-->
-<!--          <div class="bg-[url('/comet.svg')] bg-no-repeat w-[130px] h-[150px]"></div>-->
-<!--          <div class="bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
-<!--        </div>-->
-        <div class="m-auto flex flex-col gap-32 lg:flex-row xl:w-[1170px] w-[85%]">
+      <section id="about" class="about flex h-fit py-28 text-center xl:px-16">
+        <!--        <div class="flex flex-col gap-20">-->
+        <!--          <div class="bg-[url('/comet.svg')] bg-no-repeat w-[130px] h-[150px]"></div>-->
+        <!--          <div class="bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
+        <!--        </div>-->
+        <div
+          class="m-auto flex w-[85%] flex-col gap-32 lg:flex-row xl:w-[1170px]"
+        >
           <div class="my-auto flex flex-col gap-12 lg:w-[500px]">
             <h2 class="text-5xl text-hgrey-2">About Us</h2>
             <p class="w-fit text-justify text-xl text-hgrey-1">
@@ -59,29 +72,32 @@
             >
               Lorem Ipsum!
             </button>
-<!--          <div class="bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
+            <!--          <div class="bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
           </div>
           <div
-            class="h-[607px] flex-none rounded-xl hidden lg:w-[350px] xl:w-[495px] lg:block object-cover"
+            class="hidden h-[607px] flex-none rounded-xl object-cover lg:block lg:w-[350px] xl:w-[495px]"
           >
-            <img class="object-cover h-[100%] w-[100%]" src="/hero-mobile.jpg" />
+            <img
+              class="h-[100%] w-[100%] object-cover"
+              src="/hero-mobile.jpg"
+            />
           </div>
         </div>
-<!--        <div class="m-10 mt-[100px] mt-[200px] flex flex-col gap-10">-->
-<!--          <div class="bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
-<!--          <div class="bg-[url('/rocket2.svg')] bg-no-repeat w-[140px] h-[200px]"></div>-->
-<!--        </div>-->
+        <!--        <div class="m-10 mt-[100px] mt-[200px] flex flex-col gap-10">-->
+        <!--          <div class="bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
+        <!--          <div class="bg-[url('/rocket2.svg')] bg-no-repeat w-[140px] h-[200px]"></div>-->
+        <!--        </div>-->
       </section>
 
-      <section class="we-need flex h-fit bg-hcyan px-5 py-24">
-<!--        <div class="px-auto my-auto lg:px-10">-->
-<!--          <div class="stars flex-none">-->
-<!--          <div class="ml-6 bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
-<!--          <div class="my-[100px] bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
-<!--          <div class="ml-10 bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
+      <section id="we-need" class="we-need flex h-fit bg-hcyan px-5 py-24">
+        <!--        <div class="px-auto my-auto lg:px-10">-->
+        <!--          <div class="stars flex-none">-->
+        <!--          <div class="ml-6 bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
+        <!--          <div class="my-[100px] bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
+        <!--          <div class="ml-10 bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
 
-<!--          </div>-->
-<!--        </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
         <div
           class="content flex w-[100%] flex-col items-center justify-center gap-20"
         >
@@ -89,20 +105,18 @@
           <template data-type="pug" data-src="./view/section-3/index.pug">
           </template>
         </div>
-<!--        <div class="px-auto my-auto lg:px-10">-->
-<!--          <div class="stars flex-none">-->
-<!--          <div class="mr-6 bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
-<!--          <div class="my-[100px] ml-6 bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
-<!--          <div class="mr-10 bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
-<!--          </div>-->
-<!--        </div>-->
+        <!--        <div class="px-auto my-auto lg:px-10">-->
+        <!--          <div class="stars flex-none">-->
+        <!--          <div class="mr-6 bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
+        <!--          <div class="my-[100px] ml-6 bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
+        <!--          <div class="mr-10 bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
+        <!--          </div>-->
+        <!--        </div>-->
       </section>
 
-      <section class="team h-fit bg-hbeige-1 py-24">
+      <section id="team" class="team h-fit bg-hbeige-1 py-24">
         <div class="flex flex-col items-center justify-center">
-          <h2 class="text-[55px] text-hgrey-2">
-            Team
-          </h2>
+          <h2 class="text-[55px] text-hgrey-2">Team</h2>
           <p class="text-hgrey-hgrey-1 text-center text-[20px] lg:w-[600px]">
             Phasellus non tellus molestie, semper lacus quis, pulvinar lorem.
             Maecenas sagittis nunc in magna elementum, a auctor augue congue.
@@ -114,12 +128,12 @@
         </div>
       </section>
 
-      <div class="timeline flex h-fit p-24">
-<!--        <div class="decorations p-5">-->
-<!--          <div class="w-[150px] h-[230px] bg-[url('/rocket.svg')] bg-no-repeat"></div>-->
+      <section id="timeline" class="timeline flex h-fit p-24">
+        <!--        <div class="decorations p-5">-->
+        <!--          <div class="w-[150px] h-[230px] bg-[url('/rocket.svg')] bg-no-repeat"></div>-->
 
-<!--          <div class="my-[100px] bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
-<!--        </div>-->
+        <!--          <div class="my-[100px] bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
+        <!--        </div>-->
         <div
           class="content mx-auto flex flex-col items-stretch justify-center gap-16 lg:flex-row"
         >
@@ -137,19 +151,23 @@
             ></template>
           </div>
           <div
-                  class="flex-none rounded-xl hidden lg:w-[350px] xl:w-[495px] lg:block object-cover"
+            class="hidden flex-none rounded-xl object-cover lg:block lg:w-[350px] xl:w-[495px]"
           >
-            <img class="object-cover h-[100%] w-[100%]" src="/hero-mobile.jpg" />
+            <img
+              class="h-[100%] w-[100%] object-cover"
+              src="/hero-mobile.jpg"
+            />
           </div>
         </div>
-<!--        <div class="decorations pl-5">-->
-<!--          <div class="bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
-<!--          <div class="my-[100px] bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
-<!--        </div>-->
-      </div>
+        <!--        <div class="decorations pl-5">-->
+        <!--          <div class="bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
+        <!--          <div class="my-[100px] bg-[url('/star2.svg')] bg-no-repeat w-[50px] h-[50px]"></div>-->
+        <!--        </div>-->
+      </section>
 
-      <div
-        class="sponsors hidden flex h-fit flex-col items-center justify-center gap-16 bg-hblue p-16"
+      <section
+        id="sponsors"
+        class="sponsors flex h-fit flex-col items-center justify-center gap-16 bg-hblue p-16"
       >
         <div class="flex flex-col justify-center gap-5 text-center">
           <h2 class="text-[68px] text-white lg:flex-none">Sponsors</h2>
@@ -165,13 +183,13 @@
             data-src="./view/section-6/index.pug"
           ></template>
         </div>
-      </div>
+      </section>
 
-      <div class="faq hidden flex items-center p-20">
-        <div class="flex flex-col items-center justify-center gap-4 m-auto">
+      <section id="faq" class="faq flex items-center p-20">
+        <div class="m-auto flex flex-col items-center justify-center gap-4">
           <h2 class="text-[55px] text-hgrey-2">FAQ</h2>
           <div class="text-justify lg:px-[200px]">
-            <p class="text-hgrey-1 text-center lg:w-[600px]">
+            <p class="text-center text-hgrey-1 lg:w-[600px]">
               Netcat is a featured networking utility which reads and writes
               data across network connections, using the TCP/IP protocol. It is
               designed to be a reliable "back-end" tool that can be used
@@ -179,24 +197,32 @@
             </p>
           </div>
           <ul
-            class="faq__questions-list grid grid-cols-2 gap-x-24 gap-y-8 text-hgrey-1 mt-12 lg:w-[1150px]"
+            class="faq__questions-list mt-12 grid grid-cols-2 gap-x-24 gap-y-8 text-hgrey-1 lg:w-[1150px]"
           >
             <li class="faq__question border-b-2 border-[#FFD383]">
               <div>
                 <h4 class="text-[25px] font-semibold">Some Title</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit hac quisque ultricies interdum suscipit eu, non arcu gravida velit massa ornare, quis natoque dictumst dis fringilla</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipiscing, elit hac
+                  quisque ultricies interdum suscipit eu, non arcu gravida velit
+                  massa ornare, quis natoque dictumst dis fringilla
+                </p>
               </div>
             </li>
             <li class="border-b-2 border-[#FFD383]">cool thing</li>
             <li class="border-b-2 border-[#FFD383]">another thing</li>
             <li class="border-b-2 border-[#FFD383]">thing</li>
             <li class="border-b-2 border-[#FFD383]">wow thing 2</li>
-            <li class="border-b-2 border-[#FFD383]">Lorem ipsum dolor sit amet consectetur adipiscing, elit hac quisque ultricies interdum suscipit eu, non arcu gravida velit massa ornare, quis natoque dictumst dis fringilla</li>
+            <li class="border-b-2 border-[#FFD383]">
+              Lorem ipsum dolor sit amet consectetur adipiscing, elit hac
+              quisque ultricies interdum suscipit eu, non arcu gravida velit
+              massa ornare, quis natoque dictumst dis fringilla
+            </li>
           </ul>
         </div>
-      </div>
+      </section>
     </main>
-    <footer class="hidden bg-hbeige-1 p-16 px-36">
+    <footer id="contacts" class="bg-hbeige-1 p-16 px-36">
       <div
         class="flex flex-col justify-center gap-x-10 text-hgrey-1 lg:flex-row"
       >
@@ -225,7 +251,7 @@
           <div>
             <h5 class="text-[32px] text-hgrey-2">Contacts</h5>
             <ul class="">
-              <li >
+              <li>
                 <a class="flex gap-2" href="#">
                   <img width="25" height="24" src="/phone.svg" />
                   <span>phone</span>
@@ -233,7 +259,6 @@
               </li>
             </ul>
           </div>
-
         </div>
       </div>
     </footer>

@@ -15,6 +15,7 @@ export default {
         "hgrey-1": "#474446",
         "hgrey-2": "#312F30",
         "hgrey-3": "#E1DFE8",
+        "hgrey-4": "#8C8989",
         "hgreen": "#31C9A8",
         "hyellow": "#FCC953",
         "hcyan": "#B2EAEE"
