@@ -53,6 +53,81 @@ button {
   background-color: #fcc952;
 }
 
+.timeline {
+  background-image: url("/rocket.svg"), url("/star2.svg"), url("/star2.svg"),
+    url("/star2.svg");
+  background-size:
+    150px 230px,
+    50px 50px,
+    50px 50px,
+    50px 50px;
+  background-position:
+    5% 5%,
+    7% 95%,
+    85% 80%,
+    86% 20%;
+  background-repeat: no-repeat;
+}
+
+.about {
+  background-image: url("/comet.svg"), url("/star2.svg"), url("/rocket2.svg"),
+    url("/star2.svg");
+  background-size:
+    130px 150px,
+    50px 50px,
+    140px 200px,
+    50px 50px;
+  background-position:
+    5% 5%,
+    7% 75%,
+    95% 80%,
+    86% 20%;
+  background-repeat: no-repeat;
+}
+
+.we-need {
+  background-image: url("/star4.svg"), url("/star4.svg"), url("/star4.svg"),
+    url("/star4.svg"), url("/star4.svg"), url("/star4.svg");
+  background-size:
+    50px 50px,
+    50px 50px,
+    50px 50px,
+    50px 50px,
+    50px 50px,
+    50px 50px;
+  background-position:
+    10% 5%,
+    5% 45%,
+    10% 95%,
+    85% 5%,
+    90% 45%,
+    85% 95%;
+  background-repeat: no-repeat;
+}
+
+.team {
+  background-image: url("/star2.svg"), url("/star2.svg"), url("/comet.svg"),
+    url("/star2.svg");
+  background-size:
+    50px 50px,
+    50px 50px,
+    170px 172px,
+    50px 50px;
+  background-position:
+    15% 5%,
+    90% 190%,
+    90% 15%,
+    15% 35%;
+  background-repeat: no-repeat;
+}
+
+.about-content {
+  background-image: url("/star2.svg");
+  background-size: 50px 50px;
+  background-position: 5% 5%;
+  background-repeat: no-repeat;
+}
+
 .faq__question {
   position: relative;
   display: flex;
