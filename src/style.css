@@ -54,15 +54,18 @@ button {
 }
 
 .timeline {
-  background-image: url("/rocket.svg"), url("/star2.svg"), url("/star2.svg"),
-    url("/star2.svg");
+  background-image:
+          url("/rocket.svg"),
+          url("/star2.svg"),
+          url("/star2.svg"),
+          url("/star2.svg");
   background-size:
-    150px 230px,
+    110px 190px,
     50px 50px,
     50px 50px,
     50px 50px;
   background-position:
-    5% 5%,
+    5% 0%,
     7% 95%,
     85% 80%,
     86% 20%;
