@@ -37,18 +37,21 @@ button {
 }
 
 .faq {
-  background-image: url("/star4.svg"), url("/star4.svg"), url("/star4.svg"),
-    url("/moon.svg");
+  background-image:
+          url("/star4.svg"),
+          url("/star4.svg"),
+          url("/star4.svg"),
+          url("/moon.svg");
   background-size:
     50px 50px,
     50px 50px,
     50px 50px,
     200px 200px;
   background-position:
-    5% 5%,
+    5% 20px,
     7% 95%,
     85% 80%,
-    96% 20%;
+    96% 10px;
   background-repeat: no-repeat;
   background-color: #fcc952;
 }
