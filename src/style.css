@@ -85,6 +85,16 @@ button {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 620px) {
+    .about {
+        background-size:
+                130px 150px,
+                50px 50px,
+                0 0,
+                50px 50px;
+    }
+}
+
 .we-need {
   background-image: url("/star4.svg"), url("/star4.svg"), url("/star4.svg"),
     url("/star4.svg"), url("/star4.svg"), url("/star4.svg");
