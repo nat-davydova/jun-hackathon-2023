@@ -9,10 +9,10 @@
   </head>
   <body>
     <header>
-      <nav class="logo flex px-16 py-7">
+      <nav class="logo flex px-16 py-3">
         <div class="flex">
           <img src="/logo.svg" />
-          <span class="logo__text ml-2 text-5xl text-hblue">
+          <span class="logo__text ml-2 text-4xl text-hblue">
             Jun <br /> Hackaton
           </span>
         </div>
@@ -278,43 +278,52 @@
         </div>
       </section>
     </main>
-    <footer id="contacts" class="hidden bg-hbeige-1 p-16 px-36">
+    <footer id="contacts" class="bg-hbeige-1 p-16 px-10 lg:px-36">
       <div
-        class="flex flex-col justify-center gap-x-10 text-hgrey-1 lg:flex-row"
+        class="flex flex-col items-center gap-10 text-hgrey-1 lg:flex-row"
       >
         <div class="logo flex items-center">
           <img src="/logo.svg" />
-          <span class="logo__text ml-2 text-5xl text-hblue">Jun Hackaton</span>
+          <span class="logo__text ml-2 text-5xl text-hblue">Jun<br/> Hackaton</span>
         </div>
         <div
-          class="ml-auto flex w-full flex-col justify-center gap-x-36 lg:flex-row lg:px-20"
+          class="ml-auto flex w-full flex-col items-center justify-center text-center xl:text-left gap-y-10 gap-x-36 xl:flex-row lg:px-20"
         >
-          <ul class="list-disc">
-            <h5 class="text-[32px] text-hgrey-2">Quick links</h5>
-            <li class="text-horange-1">
-              <span class="text-hgrey-1">link 1</span>
+          <button
+                  class="mx-auto h-[74px] w-[229px] rounded-full border border-horange-1 bg-horange-1 text-white transition duration-300 hover:border-horange-hover hover:bg-horange-hover"
+          >
+            Lorem Ipsum!
+          </button>
+
+          <ul class="contacts flex flex-col gap-5">
+            <li>
+              <a class="flex gap-2" href="#">
+                <img width="25" height="24" src="/phone.svg" />
+                <span>chat</span>
+              </a>
             </li>
-            <li class="text-horange-1">
-              <span class="text-hgrey-1">link 2</span>
+
+            <li>
+              <a class="flex gap-2" href="#">
+                <img width="25" height="24" src="/phone.svg" />
+                <span>twitter</span>
+              </a>
             </li>
-            <li class="text-horange-1">
-              <span class="text-hgrey-1">link 3</span>
+
+            <li>
+              <a class="flex gap-2" href="#">
+                <img width="25" height="24" src="/phone.svg" />
+                <span>tg</span>
+              </a>
             </li>
-            <li class="text-horange-1">
-              <span class="text-hgrey-1">link 4</span>
+
+            <li>
+              <a class="flex gap-2" href="#">
+                <img width="25" height="24" src="/phone.svg" />
+                <span>natti.davydova@gmail.com</span>
+              </a>
             </li>
           </ul>
-          <div>
-            <h5 class="text-[32px] text-hgrey-2">Contacts</h5>
-            <ul class="">
-              <li>
-                <a class="flex gap-2" href="#">
-                  <img width="25" height="24" src="/phone.svg" />
-                  <span>phone</span>
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </footer>
