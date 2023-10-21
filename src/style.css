@@ -37,11 +37,8 @@ button {
 }
 
 .faq {
-  background-image:
-          url("/star4.svg"),
-          url("/star4.svg"),
-          url("/star4.svg"),
-          url("/moon.svg");
+  background-image: url("/star4.svg"), url("/star4.svg"), url("/star4.svg"),
+    url("/moon.svg");
   background-size:
     50px 50px,
     50px 50px,
@@ -57,11 +54,8 @@ button {
 }
 
 .timeline {
-  background-image:
-          url("/rocket.svg"),
-          url("/star2.svg"),
-          url("/star2.svg"),
-          url("/star2.svg");
+  background-image: url("/rocket.svg"), url("/star2.svg"), url("/star2.svg"),
+    url("/star2.svg");
   background-size:
     110px 190px,
     50px 50px,
@@ -92,13 +86,13 @@ button {
 }
 
 @media (max-width: 620px) {
-    .about {
-        background-size:
-                130px 150px,
-                50px 50px,
-                0 0,
-                50px 50px;
-    }
+  .about {
+    background-size:
+      130px 150px,
+      50px 50px,
+      0 0,
+      50px 50px;
+  }
 }
 
 .we-need {
