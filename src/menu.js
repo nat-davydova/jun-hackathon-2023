@@ -3,7 +3,7 @@ let menuIcon = document.querySelector("#menu-icon");
 menuBtn.addEventListener("click", handleMenuClick);
 let opened = false;
 
-let menuLink = document.querySelectorAll("#nav-link");
+let menuLink = document.querySelectorAll(".nav-link");
 
 menuLink.forEach((i) => {
   i.addEventListener("click", closeOnTransition);
