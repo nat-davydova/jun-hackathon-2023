@@ -7,34 +7,24 @@
   src: url("/fonts/DK_Smiling_Cat.woff") format("woff");
 }
 
-@font-face {
-  font-family: "linotte";
-  src: url("/fonts/oLinotte-SemiBold_400.woff") format("woff");
-}
-
-@font-face {
-  font-family: "woodford";
-  src: url("/fonts/WoodfordBournePRO-Regular.woff") format("woff");
-}
-
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: linotte;
+    font-family: 'Roboto Slab', serif;
 }
 
 div,
 p,
 span,
 button {
-  font-family: woodford;
   font-size: 20px;
 }
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;;
 }
 
 .logo__text {
