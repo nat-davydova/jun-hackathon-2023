@@ -17,9 +17,6 @@
   src: url("/fonts/WoodfordBournePRO-Regular.woff") format("woff");
 }
 
-.logo__text {
-  font-family: dk-smiling-cat;
-}
 
 h1,
 h2,
@@ -34,6 +31,14 @@ span,
 button {
   font-family: woodford;
   font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo__text {
+    font-family: dk-smiling-cat;
 }
 
 .faq {
