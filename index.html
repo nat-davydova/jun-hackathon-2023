@@ -12,26 +12,26 @@
     <script src="src/menu.js" defer></script>
   </head>
   <body>
-    <header class="">
-      <button
-        id="menu-controls"
-        class="visible fixed right-2 top-2 z-[999] lg:hidden"
-      >
-        <img id="menu-icon" src="/menu.svg" />
-      </button>
-      <nav
-        id="nav"
-        class="fixed bottom-0 right-0 top-0 z-10 flex hidden flex-col rounded-l-lg border-2 border-red-100 bg-red-100 px-16 shadow-md transition-opacity lg:visible lg:bottom-auto lg:right-auto lg:top-auto lg:flex lg:h-[85px] lg:w-screen lg:flex-row lg:flex-row lg:justify-center lg:rounded-b-lg lg:rounded-t-none lg:py-3"
-      >
-        <div class="">
-          <a class="logo flex" href="#hero" >
-            <img src="/logo.svg" class="h-[55px]" />
-            <span class="logo__text ml-2 text-2xl text-hblue">
+    <header class="fixed flex justify-between items-center left-0 top-0 z-[999] w-[100%] flex bg-red-100 px-10 md:px-16 shadow-md h-[75px]">
+      <a class="logo flex" href="#hero" >
+        <img src="/logo.svg" class="h-[55px]" />
+        <span class="logo__text ml-2 text-2xl text-hblue">
             Jun <br />
             Hackaton
           </span>
-          </a>
-        </div>
+      </a>
+
+      <button
+        id="menu-controls"
+        class="visible lg:hidden"
+      >
+        <img id="menu-icon" src="/menu.svg" />
+      </button>
+
+      <nav
+        id="nav"
+        class="fixed bottom-0 right-0 top-0 z-10 flex hidden flex-col rounded-l-lg border-2 border-red-100 bg-red-100 px-16 shadow-md transition-opacity lg:visible lg:bottom-auto lg:right-auto lg:top-auto lg:flex lg:w-screen lg:flex-row lg:flex-row lg:justify-center lg:rounded-b-lg lg:rounded-t-none lg:py-3"
+      >
         <div
           class="flex flex-col flex-wrap items-start gap-10 font-semibold text-hgrey-1 lg:m-auto lg:flex-row lg:items-baseline"
         >
@@ -47,18 +47,8 @@
           >
           <a
             class="nav-link transition duration-300 hover:text-horange-1"
-            href="#team"
-            >Команда</a
-          >
-          <a
-            class="nav-link transition duration-300 hover:text-horange-1"
             href="#timeline"
             >Расписание</a
-          >
-          <a
-            class="nav-link transition duration-300 hover:text-horange-1"
-            href="#sponsors"
-            >Спонсоры</a
           >
           <a
             class="nav-link transition duration-300 hover:text-horange-1"
