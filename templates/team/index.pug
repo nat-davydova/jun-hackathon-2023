@@ -1,16 +1,9 @@
 include ./label.pug
 include ./card.pug
 
-
-div(class='py-10')
- div(class='flex gap-2')
-  +label('hgreen', 'title')
-  +label('hyellow', 'title')
-  +label('horange-1', 'title')
-div(class='xl:w-[1170px] flex flex-wrap gap-7 items-center justify-center')
-  +card('hello')
-  +card('hello')
-  +card('hello')
-  +card('hello')
-  +card('hello')
-  +card('hello')
+div(class='pt-12 flex flex-wrap gap-7 items-center justify-center')
+  +card('Наташа Давыдова', '/team/natasha.jpg', 'орг всего хакатона', 'hred-1')
+  +card('Арина Бекарева', '/team/arina.jpg', 'орг от НКО', 'hgreen')
+  +card('Женя Соколов-Вилюзин', '/team/jenya.jpg', 'судья', 'hblue')
+  +card('Никита Федоров', '/team/nikita.jpg', 'судья', 'hblue')
+  +card('Михаил Дедов', '/team/misha.jpg', 'создатель лэндинга', 'horange-1')
