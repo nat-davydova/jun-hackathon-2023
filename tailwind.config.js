@@ -9,6 +9,7 @@ export default {
         "hgreen": "#31C9A8",
         "horange-1": "#ff3c12",
         "horange-2": "#FECBBA",
+        "hred-1": "#8b0000",
         "horange-hover": "#FF9C37",
         "hyellow": "#FCC953",
         "hblue": "#341C77",
