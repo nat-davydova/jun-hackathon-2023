@@ -19,7 +19,8 @@ export default {
         "hgrey-4": "#8C8989",
         "hgreen-1": "#077f65",
         "hyellow": "#FCC953",
-        "hcyan": "#B2EAEE"
+        "hcyan": "#B2EAEE",
+        "hwhite": "#FFF"
       }
     },
   },
