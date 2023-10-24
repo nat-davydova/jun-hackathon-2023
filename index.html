@@ -12,7 +12,7 @@
     <script type="module" src="./src/menu.js" defer></script>
   </head>
   <body>
-    <header class="fixed flex justify-between items-center left-0 top-0 z-[999] w-[100%] flex bg-red-100 px-10 md:px-16 shadow-md h-[75px]">
+    <header class="fixed justify-between items-center left-0 top-0 z-[1] w-[100%] flex bg-red-100 px-10 md:px-16 shadow-md h-[75px]">
       <a class="logo flex" href="#hero" >
         <img src="/logo.svg" class="h-[55px]" />
         <span class="logo__text ml-2 text-2xl text-hblue">
@@ -30,7 +30,7 @@
 
       <nav
         id="nav"
-        class="fixed bottom-0 right-0 top-[75px] z-998 flex hidden flex-col border-red-100 bg-red-100 px-16 py-10 shadow-md lg:shadow-none lg:bg-transparent transition-opacity lg:visible lg:bottom-auto lg:right-auto lg:top-auto lg:flex lg:w-screen lg:flex-row lg:flex-row lg:justify-center lg:rounded-b-lg lg:rounded-t-none lg:py-3"
+        class="fixed bottom-0 right-0 top-[75px] hidden flex-col border-red-100 bg-red-100 px-16 py-10 shadow-md lg:static lg:shadow-none lg:bg-transparent transition-opacity lg:visible lg:bottom-auto lg:right-auto lg:top-auto lg:flex lg:w-screen lg:flex-row lg:justify-center lg:rounded-b-lg lg:rounded-t-none lg:py-3"
       >
         <div
           class="flex flex-col flex-wrap items-start gap-10 font-semibold text-hgrey-1 lg:m-auto lg:flex-row lg:items-baseline"
@@ -94,7 +94,7 @@
         class="about bg-hbeige-1 py-28 xl:px-16"
       >
         <div
-          class="flex w-[85%] flex-col gap-16  w-[90%] lg:max-w-[870px] m-auto"
+          class="flex flex-col gap-16 w-[90%] lg:max-w-[870px] m-auto"
         >
             <h2 class="text-5xl text-hgrey-2 text-center">О Хакатоне</h2>
             <div class="text-[23px] text-hgrey-1 text-justify">
@@ -580,14 +580,14 @@
             </li>
 
             <li>
-              <a class="font-bold flex gap-2 flex gap-2 transition duration-300 hover:text-horange-1" href="https://t.me/natti_davydova" target="_blank">
+              <a class="font-bold flex gap-2 transition duration-300 hover:text-horange-1" href="https://t.me/natti_davydova" target="_blank">
                 <img width="25" src="/social/telegram.svg" />
                 <span>Телега @natti_davydova</span>
               </a>
             </li>
 
             <li>
-              <a class="font-bold flex gap-2 flex gap-2 transition duration-300 hover:text-horange-1" href="mailto: natti.davydova@gmail.com" target="_blank">
+              <a class="font-bold flex gap-2 transition duration-300 hover:text-horange-1" href="mailto: natti.davydova@gmail.com" target="_blank">
                 <img width="25" src="/social/gmail.svg" />
                 <span>natti.davydova@gmail.com</span>
               </a>
