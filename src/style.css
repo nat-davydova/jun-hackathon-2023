@@ -7,12 +7,11 @@
   src: url("/fonts/DK_Smiling_Cat.woff") format("woff");
 }
 
-
 h1,
 h2,
 h3,
 h4 {
-    font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 div,
@@ -23,12 +22,12 @@ button {
 }
 
 html {
-    scroll-behavior: smooth;
-    font-family: 'Raleway', sans-serif;;
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
 }
 
 .logo__text {
-    font-family: dk-smiling-cat;
+  font-family: dk-smiling-cat;
 }
 
 .faq {
@@ -112,7 +111,7 @@ html {
 
 .sponsors {
   background-image: url("/planet1.svg"), url("/planet4.svg"), url("/comet2.svg"),
-    url("/planet2.svg"),url("/star4.svg");
+    url("/planet2.svg"), url("/star4.svg");
   background-size:
     50px 50px,
     150px 150px,
