@@ -6,31 +6,33 @@
     <link href="/src/style.css" rel="stylesheet" />
     <meta name="view" content="width=device-width, initial-scale=1.0" />
     <title>Благотворительный хакатон для джунов</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
     <script type="module" src="./src/menu.js" defer></script>
   </head>
   <body>
-    <header class="fixed flex justify-between items-center left-0 top-0 z-[999] w-[100%] flex bg-red-100 px-10 md:px-16 shadow-md h-[75px]">
-      <a class="logo flex" href="#hero" >
+    <header
+      class="fixed left-0 top-0 z-[999] flex h-[75px] w-[100%] items-center justify-between bg-red-100 px-10 shadow-md md:px-16"
+    >
+      <a class="logo flex" href="#hero">
         <img src="/logo.svg" class="h-[55px]" />
         <span class="logo__text ml-2 text-2xl text-hblue">
-            Jun <br />
-            Hackaton
-          </span>
+          Jun <br />
+          Hackaton
+        </span>
       </a>
 
-      <button
-        id="menu-controls"
-        class="visible lg:hidden"
-      >
+      <button id="menu-controls" class="visible lg:hidden">
         <img id="menu-icon" src="/menu.svg" />
       </button>
 
       <nav
         id="nav"
-        class="fixed bottom-0 right-0 top-[75px] z-998 flex hidden flex-col border-red-100 bg-red-100 px-16 py-10 shadow-md lg:shadow-none lg:bg-transparent transition-opacity lg:visible lg:bottom-auto lg:right-auto lg:top-auto lg:flex lg:w-screen lg:flex-row lg:flex-row lg:justify-center lg:rounded-b-lg lg:rounded-t-none lg:py-3"
+        class="z-998 fixed bottom-0 right-0 top-[75px] hidden flex-col border-red-100 bg-red-100 px-16 py-10 shadow-md transition-opacity lg:visible lg:bottom-auto lg:right-auto lg:top-auto lg:flex lg:w-screen lg:flex-row lg:flex-row lg:justify-center lg:rounded-b-lg lg:rounded-t-none lg:bg-transparent lg:py-3 lg:shadow-none"
       >
         <div
           class="flex flex-col flex-wrap items-start gap-10 font-semibold text-hgrey-1 lg:m-auto lg:flex-row lg:items-baseline"
@@ -65,22 +67,27 @@
     </header>
 
     <main>
-      <section
-        id="hero"
-        class="hero h-fit bg-slate-700 pb-[80px] pt-[145px]"
-      >
+      <section id="hero" class="hero h-fit bg-slate-700 pb-[80px] pt-[145px]">
         <div
-          class="align-center flex h-full flex-col justify-center gap-10 text-center lg:px-16 w-[90%] lg:max-w-[1170px] m-auto"
+          class="align-center m-auto flex h-full w-[90%] flex-col justify-center gap-10 text-center lg:max-w-[1170px] lg:px-16"
         >
-          <p class="mb-[-50px] text-[30px] text-horange-1">11-12 ноября 2023, Онлайн</p>
-          <h1 class="text-[35px] sm:text-[42px] md:text-[62px] mt-5 text-white break-words">Благотворительный Хакатон Для Джунов</h1>
+          <p class="mb-[-50px] text-[30px] text-horange-1">
+            11-12 ноября 2023, Онлайн
+          </p>
+          <h1
+            class="mt-5 break-words text-[35px] text-white sm:text-[42px] md:text-[62px]"
+          >
+            Благотворительный Хакатон Для Джунов
+          </h1>
           <div class="text-[26px] text-white">
             <p>
-              Веселое стек-независимое мероприятие для джунов-разработчиков (фронтов/бэков) и джунов-дизайнеров. Миддлам и сеньорам тоже можно поучаствовать: в качестве лидов команд.
+              Веселое стек-независимое мероприятие для джунов-разработчиков
+              (фронтов/бэков) и джунов-дизайнеров. Миддлам и сеньорам тоже можно
+              поучаствовать: в качестве лидов команд.
             </p>
           </div>
           <a
-            class="flex items-center text-center justify-center mx-auto h-[74px] w-[229px] rounded-full border border-horange-1 bg-horange-1 text-white transition duration-300 hover:border-horange-hover hover:bg-horange-hover"
+            class="mx-auto flex h-[74px] w-[229px] items-center justify-center rounded-full border border-horange-1 bg-horange-1 text-center text-white transition duration-300 hover:border-horange-hover hover:bg-horange-hover"
             href="https://forms.gle/23dN4uXvh7vdFW227"
             target="_blank"
           >
@@ -89,50 +96,122 @@
         </div>
       </section>
 
-      <section
-        id="about"
-        class="about bg-hbeige-1 py-28 xl:px-16"
-      >
+      <section id="about" class="about bg-hbeige-1 py-28 xl:px-16">
         <div
-          class="flex w-[85%] flex-col gap-16  w-[90%] lg:max-w-[870px] m-auto"
+          class="m-auto flex w-[85%] flex-col gap-16 lg:max-w-[870px]"
         >
-            <h2 class="text-5xl text-hgrey-2 text-center">О Хакатоне</h2>
-            <div class="text-[23px] text-hgrey-1 text-justify">
-              <p>
-                Этот хакатон - не классический спортивный хакатон. Он организован не большой компанией, а коллабом <a class="text-horange-1 font-bold transition duration-300 hover:text-hgreen-1" href="https://t.me/natti_jun_front_chat" target="_blank">"Чата джунов" Наташи Давыдовой</a> и <a class="text-horange-1 font-bold transition duration-300 hover:text-hgreen-1" href="https://sirota.ru/" target="_blank">НКО "Найди семью"</a>, у нас нет крупного призового фонда и атмосферы "сдохни или умри".
-              </p>
-              <p class="mt-5 font-bold">
-                А что у нас есть и зачем приходить?
-              </p>
-              <p class="mt-5">
-                <span class="font-bold">Во-первых</span>, это хакатон для <span class="font-bold">джуниор-разработчиков</span>. Для участия у нас не нужно быть крутым программистом и даже не нужен коммерческий опыт. Задания специально сформированы так, что с ними в базовой версии может справиться программист/дизайнер начального уровня. А для <span class="font-bold">миддлов и сеньоров</span> тоже найдутся задачи: проекты повышенной сложности и возможность лидить команды.
-              </p>
-              <p class="mt-5">
-                <span class="font-bold">Во-вторых</span>, это возможность сделать социально полезный проект и привлечь внимание к проблеме адаптации детей-сирот в приемных семьях. Делать будем небольшие яркие браузерные игры по теме ивента <span class="font-bold">(есть задачи для фронтов, бэков и дизайнеров)</span>, которые потом будут размещены на сайте <a class="text-horange-1 font-bold transition duration-300 hover:text-hgreen-1" href="https://sirota.ru/" target="_blank">НКО "Найди семью"</a>.
-              </p>
-              <p class="mt-5">
-                <span class="font-bold">В-третьих</span>, это будет возможность классно провести время. Вы не обязаны заявляться командой, <span class="font-bold">заявляться можно и поодиночке</span>, и мы сформируем вам команду сами. <span class="font-bold">Все команды будут специально отбалансированы</span> так, чтобы исключить ситуации, когда очень сильные команды не оставляют другим и шанса на победу (не больше 1 человека миддл-уровня и выше на команду). Кроме того, хакатон проходит на базе <a class="text-horange-1 font-bold transition duration-300 hover:text-hgreen-1" href="https://t.me/natti_jun_front_chat" target="_blank">"Чата джунов" Наташи Давыдовой</a>, известного своей <span class="font-bold">доброжелательной и миролюбивой атмосферой</span>. Вы будете в команде с хорошими, славными ребятами.
-              </p>
-              <p class="mt-5">
-                <span class="font-bold">В-четвертых</span>, у нас будут классные призы от спонсоров Хакатона! Проходки на <a class="text-horange-1 font-bold transition duration-300 hover:text-hgreen-1" href="https://www.peredelanoconf.com/" target="_blank">PeredelanoConf</a> (проходят по всему миру)/<a class="text-horange-1 font-bold transition duration-300 hover:text-hgreen-1" href="https://t.me/reworkedconf" target="_blank">reWorkedMeetup</a> (проходят в Питере и Мск) и подписки на <a class="text-horange-1 font-bold transition duration-300 hover:text-hgreen-1" href="https://ru.hexlet.io/" target="_blank">Хекслет</a> на 4 месяца каждому победителю.
-              </p>
-            </div>
-            <div class="bg-hred-1 text-white p-5 rounded-lg">
-              Важно! Вход на марафон идет за донат: 400р/$4/€4, который вы сами переведете в любую благотворительную организацию на ваш выбор (кроме политически ориентированных). Нужно будет прислать чек на этапе подтверждения заявки
-            </div>
-            <a
-                    class="flex items-center text-center justify-center mx-auto h-[74px] w-[229px] rounded-full border border-horange-1 bg-horange-1 text-white transition duration-300 hover:border-horange-hover hover:bg-horange-hover"
-                    href="https://forms.gle/23dN4uXvh7vdFW227"
-                    target="_blank"
-            >
-              Подать Заявку
-            </a>
+          <h2 class="text-center text-5xl text-hgrey-2">О Хакатоне</h2>
+          <div class="text-justify text-[23px] text-hgrey-1">
+            <p>
+              Этот хакатон - не классический спортивный хакатон. Он организован
+              не большой компанией, а коллабом
+              <a
+                class="font-bold text-horange-1 transition duration-300 hover:text-hgreen-1"
+                href="https://t.me/natti_jun_front_chat"
+                target="_blank"
+                >"Чата джунов" Наташи Давыдовой</a
+              >
+              и
+              <a
+                class="font-bold text-horange-1 transition duration-300 hover:text-hgreen-1"
+                href="https://sirota.ru/"
+                target="_blank"
+                >НКО "Найди семью"</a
+              >, у нас нет крупного призового фонда и атмосферы "сдохни или
+              умри".
+            </p>
+            <p class="mt-5 font-bold">А что у нас есть и зачем приходить?</p>
+            <p class="mt-5">
+              <span class="font-bold">Во-первых</span>, это хакатон для
+              <span class="font-bold">джуниор-разработчиков</span>. Для участия
+              у нас не нужно быть крутым программистом и даже не нужен
+              коммерческий опыт. Задания специально сформированы так, что с ними
+              в базовой версии может справиться программист/дизайнер начального
+              уровня. А для
+              <span class="font-bold">миддлов и сеньоров</span> тоже найдутся
+              задачи: проекты повышенной сложности и возможность лидить команды.
+            </p>
+            <p class="mt-5">
+              <span class="font-bold">Во-вторых</span>, это возможность сделать
+              социально полезный проект и привлечь внимание к проблеме адаптации
+              детей-сирот в приемных семьях. Делать будем небольшие яркие
+              браузерные игры по теме ивента
+              <span class="font-bold"
+                >(есть задачи для фронтов, бэков и дизайнеров)</span
+              >, которые потом будут размещены на сайте
+              <a
+                class="font-bold text-horange-1 transition duration-300 hover:text-hgreen-1"
+                href="https://sirota.ru/"
+                target="_blank"
+                >НКО "Найди семью"</a
+              >.
+            </p>
+            <p class="mt-5">
+              <span class="font-bold">В-третьих</span>, это будет возможность
+              классно провести время. Вы не обязаны заявляться командой,
+              <span class="font-bold">заявляться можно и поодиночке</span>, и мы
+              сформируем вам команду сами.
+              <span class="font-bold"
+                >Все команды будут специально отбалансированы</span
+              >
+              так, чтобы исключить ситуации, когда очень сильные команды не
+              оставляют другим и шанса на победу (не больше 1 человека
+              миддл-уровня и выше на команду). Кроме того, хакатон проходит на
+              базе
+              <a
+                class="font-bold text-horange-1 transition duration-300 hover:text-hgreen-1"
+                href="https://t.me/natti_jun_front_chat"
+                target="_blank"
+                >"Чата джунов" Наташи Давыдовой</a
+              >, известного своей
+              <span class="font-bold"
+                >доброжелательной и миролюбивой атмосферой</span
+              >. Вы будете в команде с хорошими, славными ребятами.
+            </p>
+            <p class="mt-5">
+              <span class="font-bold">В-четвертых</span>, у нас будут классные
+              призы от спонсоров Хакатона! Проходки на
+              <a
+                class="font-bold text-horange-1 transition duration-300 hover:text-hgreen-1"
+                href="https://www.peredelanoconf.com/"
+                target="_blank"
+                >PeredelanoConf</a
+              >
+              (проходят по всему миру)/<a
+                class="font-bold text-horange-1 transition duration-300 hover:text-hgreen-1"
+                href="https://t.me/reworkedconf"
+                target="_blank"
+                >reWorkedMeetup</a
+              >
+              (проходят в Питере и Мск) и подписки на
+              <a
+                class="font-bold text-horange-1 transition duration-300 hover:text-hgreen-1"
+                href="https://ru.hexlet.io/"
+                target="_blank"
+                >Хекслет</a
+              >
+              на 4 месяца каждому победителю.
+            </p>
+          </div>
+          <div class="rounded-lg bg-hred-1 p-5 text-white">
+            Важно! Вход на марафон идет за донат: 400р/$4/€4, который вы сами
+            переведете в любую благотворительную организацию на ваш выбор (кроме
+            политически ориентированных). Нужно будет прислать чек на этапе
+            подтверждения заявки
+          </div>
+          <a
+            class="mx-auto flex h-[74px] w-[229px] items-center justify-center rounded-full border border-horange-1 bg-horange-1 text-center text-white transition duration-300 hover:border-horange-hover hover:bg-horange-hover"
+            href="https://forms.gle/23dN4uXvh7vdFW227"
+            target="_blank"
+          >
+            Подать Заявку
+          </a>
         </div>
       </section>
 
       <div
         id="who"
-        class="who flex h-fit flex-col items-center justify-center gap-16 py-16 w-[90%] lg:max-w-[1170px] m-auto"
+        class="who m-auto flex h-fit w-[90%] flex-col items-center justify-center gap-16 py-16 lg:max-w-[1170px]"
       >
         <div class="">
           <template
@@ -146,102 +225,101 @@
         <div
           class="content flex w-[100%] flex-col items-center justify-center gap-20"
         >
-          <h2 class="text-5xl text-hblue text-center">Кто Участвует</h2>
-          <div class="flex gap-x-32 gap-y-20 flex-col w-[90%] lg:max-w-[1170px]">
-
-            <div class='flex flex-col items-center md:flex-row gap-10 lg:gap-8'>
-              <div class='bg-white border border-white rounded-full w-[217px] h-[217px] flex justify-center align-center shrink-0'>
-                <img class='relative top-5 mx-auto' src='/fox.svg' />
+          <h2 class="text-center text-5xl text-hblue">Кто Участвует</h2>
+          <div
+            class="flex w-[90%] flex-col gap-x-32 gap-y-20 lg:max-w-[1170px]"
+          >
+            <div class="flex flex-col items-center gap-10 md:flex-row lg:gap-8">
+              <div
+                class="align-center flex h-[217px] w-[217px] shrink-0 justify-center rounded-full border border-white bg-white"
+              >
+                <img class="relative top-5 mx-auto" src="/fox.svg" />
               </div>
 
               <div class="flex flex-col gap-5 text-center md:text-left">
-                <h3 class='text-[32px] text-[#312F30]'>
+                <h3 class="text-[32px] text-[#312F30]">
                   Фронты/фулстеки с уклоном во фронт
                 </h3>
-                <div class='flex flex-col gap-3 text-[#474446]'>
+                <div class="flex flex-col gap-3 text-[#474446]">
+                  <p>Фронты любого стека (или фулстеки с уклоном во фронт).</p>
 
                   <p>
-                    Фронты любого стека (или фулстеки с уклоном во фронт).
+                    <span class="font-bold">Грейд:</span> любой (найдутся и
+                    задачи разной сложности, и возможность лидить).
                   </p>
 
                   <p>
-                    <span class="font-bold">Грейд:</span> любой (найдутся и задачи разной сложности, и возможность лидить).
+                    <span class="font-bold">Необходимые начальные знания:</span>
+                    базовая верстка и базовый JS. Если умеете во фреймворк -
+                    хорошо, но необязательно
                   </p>
-
-                  <p>
-                    <span class="font-bold">Необходимые начальные знания:</span> базовая верстка и базовый JS. Если умеете во фреймворк - хорошо, но необязательно
-                  </p>
-
                 </div>
               </div>
-
             </div>
 
-            <div class='flex flex-col items-center md:flex-row gap-10 lg:gap-8'>
-              <div class='bg-white border border-white rounded-full w-[217px] h-[217px] flex justify-center align-center shrink-0'>
-                <img class='relative top-5 mx-auto' src='/giraffe.svg' />
+            <div class="flex flex-col items-center gap-10 md:flex-row lg:gap-8">
+              <div
+                class="align-center flex h-[217px] w-[217px] shrink-0 justify-center rounded-full border border-white bg-white"
+              >
+                <img class="relative top-5 mx-auto" src="/giraffe.svg" />
               </div>
 
               <div class="flex flex-col gap-5 text-center md:text-left">
-                <h3 class='text-[32px] text-[#312F30]'>
+                <h3 class="text-[32px] text-[#312F30]">
                   Бэки/фулстеки с уклоном в бэк
                 </h3>
-                <div class='flex flex-col gap-3 text-[#474446]'>
+                <div class="flex flex-col gap-3 text-[#474446]">
+                  <p>Бэки любого стека (или фулстеки с уклоном в бэк).</p>
 
                   <p>
-                    Бэки любого стека (или фулстеки с уклоном в бэк).
+                    <span class="font-bold">Грейд:</span> джун/пре-миддл (либо
+                    миддл, который будет больше лидить)
                   </p>
 
                   <p>
-                    <span class="font-bold">Грейд:</span> джун/пре-миддл (либо миддл, который будет больше лидить)
+                    <span class="font-bold">Необходимые начальные знания:</span>
+                    умение написать простой CRUD
                   </p>
-
-                  <p>
-                    <span class="font-bold">Необходимые начальные знания:</span> умение написать простой CRUD
-                  </p>
-
                 </div>
               </div>
-
             </div>
 
-            <div class='flex flex-col items-center md:flex-row gap-10 lg:gap-8'>
-              <div class='bg-white border border-white rounded-full w-[217px] h-[217px] flex justify-center align-center shrink-0'>
-                <img class='relative top-5 mx-auto' src='/penguin.svg' />
+            <div class="flex flex-col items-center gap-10 md:flex-row lg:gap-8">
+              <div
+                class="align-center flex h-[217px] w-[217px] shrink-0 justify-center rounded-full border border-white bg-white"
+              >
+                <img class="relative top-5 mx-auto" src="/penguin.svg" />
               </div>
 
               <div class="flex flex-col gap-5 text-center md:text-left">
-                <h3 class='text-[32px] text-[#312F30]'>
-                  UI/UX-дизайнеры
-                </h3>
-                <div class='flex flex-col gap-3 text-[#474446]'>
-
+                <h3 class="text-[32px] text-[#312F30]">UI/UX-дизайнеры</h3>
+                <div class="flex flex-col gap-3 text-[#474446]">
                   <p>
-                    Можно как больше в UI, так и больше в UX. Если вы с T-shape во фронт, вообще супер!
+                    Можно как больше в UI, так и больше в UX. Если вы с T-shape
+                    во фронт, вообще супер!
                   </p>
 
-                  <p>
-                    <span class="font-bold">Грейд:</span> джун/пре-миддл
-                  </p>
+                  <p><span class="font-bold">Грейд:</span> джун/пре-миддл</p>
 
                   <p>
-                    <span class="font-bold">Необходимые начальные знания:</span> умение работать с фигмой, наличие джуновского портфолио с учебными курсами или личными петами
+                    <span class="font-bold">Необходимые начальные знания:</span>
+                    умение работать с фигмой, наличие джуновского портфолио с
+                    учебными курсами или личными петами
                   </p>
-
                 </div>
               </div>
-
             </div>
-
           </div>
         </div>
       </section>
 
       <section id="team" class="team h-fit bg-hbeige-1 py-24">
-        <div class="flex flex-col items-center justify-center w-[90%] lg:max-w-[1170px] m-auto">
+        <div
+          class="m-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1170px]"
+        >
           <h2 class="text-5xl text-hgrey-2">Команда</h2>
           <p
-            class="text-hgrey-hgrey-1 text-center text-[20px] lg:w-[600px] mt-5"
+            class="text-hgrey-hgrey-1 mt-5 text-center text-[20px] lg:w-[600px]"
           >
             Чудесные люди, благодаря которым хакатон увидел свет
           </p>
@@ -252,12 +330,9 @@
         </div>
       </section>
 
-      <section
-        id="timeline"
-        class="timeline flex h-fit py-24"
-      >
+      <section id="timeline" class="timeline flex h-fit py-24">
         <div
-          class="content flex flex-col items-stretch justify-center gap-16 lg:flex-row w-[90%] lg:max-w-[970px] m-auto"
+          class="content m-auto flex w-[90%] flex-col items-stretch justify-center gap-16 lg:max-w-[970px] lg:flex-row"
         >
           <div class="lg:items-left flex flex-col items-center gap-10">
             <h2 class="text-5xl text-horange-1">Расписание</h2>
@@ -276,11 +351,17 @@
         <div class="flex flex-col justify-center gap-5 text-center">
           <h2 class="text-5xl text-white lg:flex-none">Спонсоры</h2>
           <p class="px-4 text-hgrey-3 lg:w-[700px]">
-            Благодаря этим ребятам у нас есть призы, а еще они согласились внести каждый по $1k в НКО "Найди семью" в качестве пожертвований
+            Благодаря этим ребятам у нас есть призы, а еще они согласились
+            внести каждый по $1k в НКО "Найди семью" в качестве пожертвований
           </p>
 
           <p class="px-4 text-hgrey-3 lg:w-[700px]">
-            Если тоже хотите стать спонсором или задонатить нам, пишите <a class="text-horange-1 font-bold transition duration-300 hover:text-hcyan" href="#contacts">любой из контактов в футере</a>
+            Если тоже хотите стать спонсором или задонатить нам, пишите
+            <a
+              class="font-bold text-horange-1 transition duration-300 hover:text-hcyan"
+              href="#contacts"
+              >любой из контактов в футере</a
+            >
           </p>
         </div>
         <div class="">
@@ -294,41 +375,57 @@
       <section id="faq" class="faq flex items-center py-20">
         <div class="flex w-[100%] flex-col items-center justify-center gap-4">
           <h2 class="text-5xl text-hgrey-2">F.A.Q</h2>
-          <div class="text-center w-[90%] lg:w-[700px]">
+          <div class="w-[90%] text-center lg:w-[700px]">
             <p class="text-justify">
-              Тут детали подачи заявок и прохождения хакатона. Если все еще остались вопросы, пишите в <a class="text-horange-1 font-bold transition duration-300 hover:text-hgreen-1" href="#contacts">любой из контактов в футере</a>, мы ответим
+              Тут детали подачи заявок и прохождения хакатона. Если все еще
+              остались вопросы, пишите в
+              <a
+                class="font-bold text-horange-1 transition duration-300 hover:text-hgreen-1"
+                href="#contacts"
+                >любой из контактов в футере</a
+              >, мы ответим
             </p>
           </div>
 
           <ul
-            class="faq__questions-list mt-12 grid w-[95%] gap-x-24 gap-y-8 xl:w-[1150px] xl:grid-cols-2  break-words"
+            class="faq__questions-list mt-12 grid w-[95%] gap-x-24 gap-y-8 break-words xl:w-[1150px] xl:grid-cols-2"
           >
             <li
               class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
             >
               <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
                   Я подаю заявку: что дальше?
                 </summary>
                 <p class="mt-3">
-                  А дальше мы связываемся с вами в тг/по почте, утрясаем детали, если это нужно, аппрувим участие, вы присылаете чек перевода 400р/$4/€4 в любую благотворительную организацию на выбор (кроме политически ориентированных)
+                  А дальше мы связываемся с вами в тг/по почте, утрясаем детали,
+                  если это нужно, аппрувим участие, вы присылаете чек перевода
+                  400р/$4/€4 в любую благотворительную организацию на выбор
+                  (кроме политически ориентированных)
                 </p>
 
                 <p class="mt-3">
-                  Как только получаем чек, определяем вас в команду (может понадобиться немного времени, чтобы команду дособрать). А дальше ждем старта хакатона.
+                  Как только получаем чек, определяем вас в команду (может
+                  понадобиться немного времени, чтобы команду дособрать). А
+                  дальше ждем старта хакатона.
                 </p>
               </details>
             </li>
 
             <li
-                    class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
+              class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
             >
               <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
                   Можно ли заявиться одному, без команды?
                 </summary>
                 <p class="mt-3">
-                  Можно. Заполняйте заявку, и мы подберем вам команду. Вы не останетесь в одиночестве =)
+                  Можно. Заполняйте заявку, и мы подберем вам команду. Вы не
+                  останетесь в одиночестве =)
                 </p>
               </details>
             </li>
@@ -337,19 +434,27 @@
               class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
             >
               <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
                   Можно ли заявиться командой (2-3 человека)?
                 </summary>
                 <p class="mt-3">
-                  Можно. Тогда заполняйте одну заявку на команду (3 человека в команде), указывайте инфу и контакты на всех, на кого заявляетесь.
+                  Можно. Тогда заполняйте одну заявку на команду (3 человека в
+                  команде), указывайте инфу и контакты на всех, на кого
+                  заявляетесь.
                 </p>
 
                 <p class="mt-3">
-                  Если заявляетесь 2-мя людьми, мы подберем вам 3-го, так что не волнуйтесь!
+                  Если заявляетесь 2-мя людьми, мы подберем вам 3-го, так что не
+                  волнуйтесь!
                 </p>
 
                 <p class="mt-3">
-                  <span class="font-bold text-hred-2">Важно!</span> На команду может быть только 1 человек с коммерческим опытом больше 1 года (фриланс не в счет). Иначе, это будет уже нечестная конкуренция с джунами в других командах.
+                  <span class="font-bold text-hred-2">Важно!</span> На команду
+                  может быть только 1 человек с коммерческим опытом больше 1
+                  года (фриланс не в счет). Иначе, это будет уже нечестная
+                  конкуренция с джунами в других командах.
                 </p>
               </details>
             </li>
@@ -358,11 +463,15 @@
               class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
             >
               <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
                   Я джун, у меня нет коммерческого опыта. Могу участвовать?
                 </summary>
                 <p class="mt-3">
-                  ДА! 100% можете, ради вас, в общем, все и затевается. Задачи рассчитаны так, что вам будет в меру сложно и интересно, кроме того, вам помогут тим-мейты.
+                  ДА! 100% можете, ради вас, в общем, все и затевается. Задачи
+                  рассчитаны так, что вам будет в меру сложно и интересно, кроме
+                  того, вам помогут тим-мейты.
                 </p>
               </details>
             </li>
@@ -371,95 +480,55 @@
               class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
             >
               <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
-                  Я сеньор, у меня много лет коммерческого опыта. Могу участвовать?
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
+                  Я сеньор, у меня много лет коммерческого опыта. Могу
+                  участвовать?
                 </summary>
-                <p class="mt-3">
-                  Да! У вас несколько опций:
-                </p>
+                <p class="mt-3">Да! У вас несколько опций:</p>
 
                 <ul>
-                  <li><span class="font-bold">Вы идете по своему стандартному стеку (для фронтов):</span> тогда у нас есть 2 задания повышенной сложности, и вы можете полидить и поменторить джунов вашей команды на задачах с реальными для вас вызовами. Для сеньор бэков и дизайнеров задач особо не найдется, вам будет скучновато</li>
-                  <li><span class="font-bold">Вы меняете стек:</span> например, вы сеньор-бэк без коммерческого опыта фронта и хотите попробовать себя в непривычном стеке</li>
+                  <li>
+                    <span class="font-bold"
+                      >Вы идете по своему стандартному стеку (для
+                      фронтов):</span
+                    >
+                    тогда у нас есть 2 задания повышенной сложности, и вы можете
+                    полидить и поменторить джунов вашей команды на задачах с
+                    реальными для вас вызовами. Для сеньор бэков и дизайнеров
+                    задач особо не найдется, вам будет скучновато
+                  </li>
+                  <li>
+                    <span class="font-bold">Вы меняете стек:</span> например, вы
+                    сеньор-бэк без коммерческого опыта фронта и хотите
+                    попробовать себя в непривычном стеке
+                  </li>
                 </ul>
               </details>
             </li>
 
             <li
-                    class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
+              class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
             >
               <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
                   А какой стек будет?
                 </summary>
                 <p class="mt-3">
-                  Исключительно на выбор команд. Хакатон и задачи - стек-независимые. Вы можете выбрать любой язык для бэка, любой сетап для фронта: хотите - с фреймворками, хотите - без фреймворков, хотите - тащите любые сторонние либы, какие вам нравятся.
+                  Исключительно на выбор команд. Хакатон и задачи -
+                  стек-независимые. Вы можете выбрать любой язык для бэка, любой
+                  сетап для фронта: хотите - с фреймворками, хотите - без
+                  фреймворков, хотите - тащите любые сторонние либы, какие вам
+                  нравятся.
                 </p>
 
                 <p class="mt-3">
-                  Мы со своей стороны постараемся так подобрать команды (для тех, кто подается поодиночке или парой), чтобы не было конфликта стеков
-                </p>
-              </details>
-            </li>
-
-            <li
-                    class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
-            >
-              <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
-                  А вдруг, задания будут слишком сложные, и я не справлюсь?
-                </summary>
-                <p class="mt-3">
-                  Не волнуйтесь за это. У нас есть 6 заданий разной степени сложности (3 простых, 1 среднее, 2 сложных), и вы сможете подобрать командой то, с которым справитесь.
-                </p>
-                <p class="mt-3">
-                  Кроме того, у заданий есть базовая простая версия (необходимый минимум, чтобы работа была засчитана) и ряд возможностей усложнить, из которых вы можете выбрать те, которые вам нравятся, интересны и по силам
-                </p>
-              </details>
-            </li>
-
-            <li
-                    class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
-            >
-              <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
-                  А вдруг, задания будут слишком простые, и мне будет скучно?
-                </summary>
-                <p class="mt-3">
-                  Не волнуйтесь за это. У нас есть 6 заданий разной степени сложности (3 простых, 1 среднее, 2 сложных), и вы сможете подобрать командой то, которое заставит вас попотеть.
-                </p>
-                <p class="mt-3">
-                  Кроме того, у заданий есть базовая простая версия (необходимый минимум, чтобы работа была засчитана) и ряд возможностей усложнить, из которых вы можете выбрать те, которые будут челленджем лично для вас
-                </p>
-              </details>
-            </li>
-
-            <li
-                    class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
-            >
-              <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
-                  А без благотворительного взноса можно?
-                </summary>
-                <p class="mt-3">
-                  Нельзя =) Можно внести его самим, можно попросить кого-то, чтобы пожертвование внесли за вас.
-                </p>
-
-                <p class="mt-3">
-                  Мы воспринимаем этот взнос как декларацию серьезности ваших намерений поучаствовать и маленький гарант, что вы не пропустите мероприятие и не подведете команду. А даже если пропустите, получается, сделаете хорошее дело
-                </p>
-              </details>
-            </li>
-
-            <li
-                    class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
-            >
-              <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
-                  Куда можно внести благотворительный взнос?
-                </summary>
-                <p class="mt-3">
-                  В любую благотворительную организацию на ваш вкус, кроме политически ориентированных. Вот несколько навскидку: "Найди семью" (НКО, с которым мы коллабимся), "Ночлежка", "Сестры", "Галчонок", "Старость в радость". Но можно, повторюсь, в любой.
+                  Мы со своей стороны постараемся так подобрать команды (для
+                  тех, кто подается поодиночке или парой), чтобы не было
+                  конфликта стеков
                 </p>
               </details>
             </li>
@@ -468,14 +537,105 @@
               class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
             >
               <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
+                  А вдруг, задания будут слишком сложные, и я не справлюсь?
+                </summary>
+                <p class="mt-3">
+                  Не волнуйтесь за это. У нас есть 6 заданий разной степени
+                  сложности (3 простых, 1 среднее, 2 сложных), и вы сможете
+                  подобрать командой то, с которым справитесь.
+                </p>
+                <p class="mt-3">
+                  Кроме того, у заданий есть базовая простая версия (необходимый
+                  минимум, чтобы работа была засчитана) и ряд возможностей
+                  усложнить, из которых вы можете выбрать те, которые вам
+                  нравятся, интересны и по силам
+                </p>
+              </details>
+            </li>
+
+            <li
+              class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
+            >
+              <details>
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
+                  А вдруг, задания будут слишком простые, и мне будет скучно?
+                </summary>
+                <p class="mt-3">
+                  Не волнуйтесь за это. У нас есть 6 заданий разной степени
+                  сложности (3 простых, 1 среднее, 2 сложных), и вы сможете
+                  подобрать командой то, которое заставит вас попотеть.
+                </p>
+                <p class="mt-3">
+                  Кроме того, у заданий есть базовая простая версия (необходимый
+                  минимум, чтобы работа была засчитана) и ряд возможностей
+                  усложнить, из которых вы можете выбрать те, которые будут
+                  челленджем лично для вас
+                </p>
+              </details>
+            </li>
+
+            <li
+              class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
+            >
+              <details>
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
+                  А без благотворительного взноса можно?
+                </summary>
+                <p class="mt-3">
+                  Нельзя =) Можно внести его самим, можно попросить кого-то,
+                  чтобы пожертвование внесли за вас.
+                </p>
+
+                <p class="mt-3">
+                  Мы воспринимаем этот взнос как декларацию серьезности ваших
+                  намерений поучаствовать и маленький гарант, что вы не
+                  пропустите мероприятие и не подведете команду. А даже если
+                  пропустите, получается, сделаете хорошее дело
+                </p>
+              </details>
+            </li>
+
+            <li
+              class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
+            >
+              <details>
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
+                  Куда можно внести благотворительный взнос?
+                </summary>
+                <p class="mt-3">
+                  В любую благотворительную организацию на ваш вкус, кроме
+                  политически ориентированных. Вот несколько навскидку: "Найди
+                  семью" (НКО, с которым мы коллабимся), "Ночлежка", "Сестры",
+                  "Галчонок", "Старость в радость". Но можно, повторюсь, в
+                  любой.
+                </p>
+              </details>
+            </li>
+
+            <li
+              class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
+            >
+              <details>
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
                   Сколько будет победителей и как будут их определять?
                 </summary>
 
                 <p class="mt-3">
-                  Будет 4 команды победителей. 2 проекта выберет НКО как максимально раскрывающие тематику хакатона и 2 проекта выберут технические судьи за качество и сложность проектов
+                  Будет 4 команды победителей. 2 проекта выберет НКО как
+                  максимально раскрывающие тематику хакатона и 2 проекта выберут
+                  технические судьи за качество и сложность проектов
                 </p>
-
               </details>
             </li>
 
@@ -483,7 +643,9 @@
               class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
             >
               <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
                   Какие будут призы?
                 </summary>
 
@@ -491,57 +653,72 @@
                   Каждому из участников 4 команд-победителей будут подарены:
                 </p>
 
-                <ul class="list-disc mt-3">
-                  <li>1 проходка на PeredelanoConf или reWorkedMeetup (бессрочная)</li>
+                <ul class="mt-3 list-disc">
+                  <li>
+                    1 проходка на PeredelanoConf или reWorkedMeetup (бессрочная)
+                  </li>
                   <li>1 подписка на Хекслет на 4 месяца</li>
                   <li>диплом победителя хакатона</li>
                 </ul>
 
-                <p class="mt-3">Кроме того, всем участникам мы подарим значки (мерч хакатона) и дадим диплом участника</p>
-
+                <p class="mt-3">
+                  Кроме того, всем участникам мы подарим значки (мерч хакатона)
+                  и дадим диплом участника
+                </p>
               </details>
             </li>
 
             <li
-                    class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
+              class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
             >
               <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
                   Нас могут дисквалифицировать?
                 </summary>
 
                 <p class="mt-3">
-                  Могут. Основная причина - токс и конфликты. Если вы будете обижать своих тим-мейтов или участников других команд, мы попросим вас на выход. Хакатон - не место для срачей и самоутверждения через агрессию, как активную, так и пассивную
+                  Могут. Основная причина - токс и конфликты. Если вы будете
+                  обижать своих тим-мейтов или участников других команд, мы
+                  попросим вас на выход. Хакатон - не место для срачей и
+                  самоутверждения через агрессию, как активную, так и пассивную
                 </p>
 
                 <p class="mt-3">
-                  Другая причина - абьюз правил хакатона. Попытки списывать у других, попытки найти похожие проекты в сети и притащить с минимальными изменениями.
+                  Другая причина - абьюз правил хакатона. Попытки списывать у
+                  других, попытки найти похожие проекты в сети и притащить с
+                  минимальными изменениями.
                 </p>
-
               </details>
             </li>
 
             <li
-                    class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
+              class="faq__question border-b-2 border-[#FFD383] py-5 pb-4 pt-2"
             >
               <details>
-                <summary class="cursor-pointer text-[25px] font-semibold  text-hgrey-1">
+                <summary
+                  class="cursor-pointer text-[25px] font-semibold text-hgrey-1"
+                >
                   Что дальше будет с проектами?
                 </summary>
 
                 <p class="mt-3">
-                  Все проекты, которые будут готовы в минимальной комплектации (для каждого ТЗ указана минимальная комплектация) будут размещены на сайте НКО. Ничего не потеряется, эти проекты ценны для нас =)
+                  Все проекты, которые будут готовы в минимальной комплектации
+                  (для каждого ТЗ указана минимальная комплектация) будут
+                  размещены на сайте НКО. Ничего не потеряется, эти проекты
+                  ценны для нас =)
                 </p>
-
               </details>
             </li>
-
           </ul>
         </div>
       </section>
     </main>
     <footer id="contacts" class="bg-hbeige-1 py-16">
-      <div class="flex flex-col items-center justify-between gap-y-10 text-hgrey-1 lg:flex-row w-[90%] lg:max-w-[1170px] m-auto">
+      <div
+        class="m-auto flex w-[90%] flex-col items-center justify-between gap-y-10 text-hgrey-1 lg:max-w-[1170px] lg:flex-row"
+      >
         <div class="logo flex items-center">
           <img src="/logo.svg" />
           <span class="logo__text ml-2 text-3xl text-hblue"
@@ -552,9 +729,9 @@
 
         <div>
           <a
-                  class="flex items-center text-center justify-center mx-auto h-[74px] w-[229px] rounded-full border border-horange-1 bg-horange-1 text-white transition duration-300 hover:border-horange-hover hover:bg-horange-hover"
-                  href="https://forms.gle/23dN4uXvh7vdFW227"
-                  target="_blank"
+            class="mx-auto flex h-[74px] w-[229px] items-center justify-center rounded-full border border-horange-1 bg-horange-1 text-center text-white transition duration-300 hover:border-horange-hover hover:bg-horange-hover"
+            href="https://forms.gle/23dN4uXvh7vdFW227"
+            target="_blank"
           >
             Подать Заявку
           </a>
@@ -563,31 +740,48 @@
         <div
           class="flex flex-col items-center justify-center gap-x-36 gap-y-10 text-center xl:flex-row xl:text-left"
         >
-
-          <ul class="contacts flex flex-col items-center gap-5 text-center lg:text-left lg:items-start">
+          <ul
+            class="contacts flex flex-col items-center gap-5 text-center lg:items-start lg:text-left"
+          >
             <li>
-              <a class="font-bold flex gap-2 transition duration-300 hover:text-horange-1" href="https://t.me/natti_jun_front_chat" target="_blank">
+              <a
+                class="flex gap-2 font-bold transition duration-300 hover:text-horange-1"
+                href="https://t.me/natti_jun_front_chat"
+                target="_blank"
+              >
                 <img width="25" src="/social/chat.svg" />
                 <span>Чат джунов</span>
               </a>
             </li>
 
             <li>
-              <a class="font-bold flex gap-2 transition duration-300 hover:text-horange-1" href="https://twitter.com/nat_davydova" target="_blank">
+              <a
+                class="flex gap-2 font-bold transition duration-300 hover:text-horange-1"
+                href="https://twitter.com/nat_davydova"
+                target="_blank"
+              >
                 <img width="25" src="/social/twitter.svg" />
                 <span>Твиттер @nat_davydova</span>
               </a>
             </li>
 
             <li>
-              <a class="font-bold flex gap-2 flex gap-2 transition duration-300 hover:text-horange-1" href="https://t.me/natti_davydova" target="_blank">
+              <a
+                class="flex gap-2 font-bold transition duration-300 hover:text-horange-1"
+                href="https://t.me/natti_davydova"
+                target="_blank"
+              >
                 <img width="25" src="/social/telegram.svg" />
                 <span>Телега @natti_davydova</span>
               </a>
             </li>
 
             <li>
-              <a class="font-bold flex gap-2 flex gap-2 transition duration-300 hover:text-horange-1" href="mailto: natti.davydova@gmail.com" target="_blank">
+              <a
+                class="flex gap-2 font-bold transition duration-300 hover:text-horange-1"
+                href="mailto: natti.davydova@gmail.com"
+                target="_blank"
+              >
                 <img width="25" src="/social/gmail.svg" />
                 <span>natti.davydova@gmail.com</span>
               </a>
