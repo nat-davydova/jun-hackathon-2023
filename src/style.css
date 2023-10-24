@@ -111,7 +111,7 @@ html {
 }
 
 .sponsors {
-  background-image: url("/planet1.svg"), url("/planet4.svg"), url("/comet.svg"),
+  background-image: url("/planet1.svg"), url("/planet4.svg"), url("/comet2.svg"),
     url("/planet2.svg"),url("/star4.svg");
   background-size:
     50px 50px,
@@ -123,7 +123,7 @@ html {
     10% 5%,
     5% 45%,
     10% 95%,
-    85% 5%,
+    85% 15%,
     85% 95%;
   background-repeat: no-repeat;
 }

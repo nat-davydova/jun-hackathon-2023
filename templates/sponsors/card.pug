@@ -1,7 +1,7 @@
 mixin card(title, text, imageSrc, color, isContain)
-  div(class='flex flex-col gap-8')
-   div(class=`${color} w-[235px] h-[235px] lg:w-[285px] lg:h-[285px] flex justify-center items-center`)
+  div(class='flex flex-col gap-8 items-center text-center w-[235px] lg:w-[285px]')
+   div(class=`${color} w-[100%] h-[235px] lg:h-[285px]`)
     img(src=imageSrc class=`w-[100%] h-[100%] ${isContain ? 'object-contain' : 'object-cover'}`)
-   div(class="flex flex-col justify-center items-center")
-    h2(class="text-[#FFFFFF] text-[26px]") #{title}
-    p(class="text-[#8E89C0]") #{text}
+   div(class="flex flex-col justify-center items-center text-white")
+    h2(class="text-[26px] text-hyellow") #{title}
+    p #{text}
